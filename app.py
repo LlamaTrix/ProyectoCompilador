@@ -224,6 +224,31 @@ def index():
                          error=error,
                          frase_ejemplo=frase)
 
+@app.route('/analizar', methods=['POST'])
+def analizar():
+    frase = request.form.get('frase', '')
+    significado = None
+    arbol_imagen = None
+    error = None
+
+    try:
+        resultado = parser.parse(frase, lexer=lexer)
+        significado = "Oración válida según la gramática del español"
+
+        # Generar imagen y guardar como archivo accesible
+        arbol_imagen = generar_imagen_arbol(resultado)  # Esto ya guarda en static/arbol.png
+        arbol_imagen = '/' + arbol_imagen  # Para que sea usable desde HTML
+
+    except Exception as e:
+        error = f"Error al analizar: {str(e)}"
+
+    return jsonify({
+        'significado': significado,
+        'arbol_imagen': arbol_imagen,
+        'error': error
+    })
+
+
 @app.route('/get_diccionario')
 def get_diccionario():
     try:
