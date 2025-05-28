@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌳 Analizador Sintáctico - Español</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary: #ff7b54;
+            --secondary: #ffb26b;
+            --accent: #ffd56b;
+            --dark: #121212;
+            --darker: #0a0a0a;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            --success: #28a745;
+            --card-bg: #1e1e1e;
+            --text: #e0e0e0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: var(--dark);
+            color: var(--text);
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        main {
+            display: grid;
+            grid-template-rows: auto 1fr;
+            gap: 20px;
+        }
+
+        .analysis-section {
+            background: var(--darker);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        }
+
+        .results-section {
+            background: var(--darker);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dictionary-section {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 {
+            color: var(--secondary);
+            margin: 20px 0 15px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: var(--accent);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .input-group {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px 15px;
+            font-size: 16px;
+            background: var(--card-bg);
+            color: var(--text);
+            border: 2px solid #333;
+            border-radius: 8px 0 0 8px;
+            transition: all 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(255, 123, 84, 0.3);
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff6342;
+        }
+
+        .example-btn {
+            background-color: var(--secondary);
+            border-radius: 8px;
+            margin-left: 10px;
+        }
+
+        .example-btn:hover {
+            background-color: #ff9e4d;
+        }
+
+        .result-container {
+            margin-top: 30px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .result-box {
+            background: var(--card-bg);
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tree-container {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        .tree-container img {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .error {
+            color: #ff6b6b;
+            background-color: rgba(255, 107, 107, 0.1);
+            border-left: 4px solid #ff6b6b;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 20px;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, .3);
+            border-radius: 50%;
+            border-top-color: var(--primary);
+            animation: spin 1s ease-in-out infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Estilos para el acordeón del diccionario */
+        .word-category {
+            margin-bottom: 15px;
+            border: 1px solid rgba(255, 123, 84, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .category-header {
+            background: rgba(255, 123, 84, 0.1);
+            padding: 12px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .category-header:hover {
+            background: rgba(255, 123, 84, 0.2);
+        }
+
+        .category-header h3 {
+            margin: 0;
+        }
+
+        .category-content {
+            display: none;
+            padding: 15px;
+        }
+
+        .word-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 8px;
+        }
+
+        .word-item {
+            background: rgba(255, 123, 84, 0.2);
+            color: var(--secondary);
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            border: 1px solid rgba(255, 123, 84, 0.3);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .word-item:hover {
+            background: rgba(255, 123, 84, 0.4);
+            transform: translateY(-2px);
+        }
+
+        /* Estilos para el modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            overflow: auto;
+        }
+
+        .modal-content {
+            background-color: var(--card-bg);
+            margin: 10% auto;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            animation: modalFadeIn 0.3s;
+            position: relative;
+        }
+
+        .close-modal {
+            color: var(--accent);
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-modal:hover {
+            color: var(--primary);
+        }
+
+        .word-info {
+            margin-top: 20px;
+        }
+
+        .word-info p {
+            margin-bottom: 10px;
+        }
+
+        .word-info strong {
+            color: var(--secondary);
+        }
+
+        @keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                grid-template-columns: 1fr;
+                padding: 15px;
+            }
+
+            .input-group {
+                flex-direction: column;
+            }
+
+            input[type="text"] {
+                border-radius: 8px;
+                margin-bottom: 10px;
+            }
+
+            button {
+                border-radius: 8px;
+                width: 100%;
+            }
+
+            .example-btn {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="analysis-section">
+            <h1><i class="fas fa-tree"></i> Analizador Sintáctico</h1>
+            <p>Ingresa una oración simple en español para analizar su estructura gramatical</p>
+
+            <form id="analysis-form">
+                <div class="input-group">
+                    <input type="text" name="frase" id="sentence-input" placeholder="Ej: 'el niño come una manzana'"
+                        required>
+                    <button type="submit" id="analyze-btn">Analizar</button>
+                    <button type="button" class="example-btn" id="sugerir-btn">
+                        <i class="fas fa-random"></i> Ejemplo
+                    </button>
+                </div>
+            </form>
+
+            <div id="error-message" class="error" style="display: none;">
+                <i class="fas fa-exclamation-circle"></i> <span id="error-text"></span>
+            </div>
+        </section>
+
+        <section class="results-section" id="results-section">
+            <div id="initial-instructions" class="result-box">
+                <h3>Instrucciones:</h3>
+                <p>Escribe una oración en español y haz clic en "Analizar" para ver su estructura gramatical.</p>
+                <p>También puedes hacer clic en palabras del diccionario para añadirlas a tu oración.</p>
+            </div>
+
+            <div id="analysis-results" style="display: none;">
+                <div class="result-container">
+                    <div class="result-box">
+                        <h3>Resultado del Análisis:</h3>
+                        <p id="analysis-meaning"></p>
+                    </div>
+
+                    <div class="tree-container">
+                        <h3>Árbol de Análisis Sintáctico:</h3>
+                        <div id="tree-image-container"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loading-indicator" style="display: none; text-align: center; padding: 20px;">
+                <h3>Realizando análisis...</h3>
+                <div class="loading"></div>
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <section class="dictionary-section">
+            <h2><i class="fas fa-book"></i> Diccionario</h2>
+            <div class="word-category">
+                <div class="category-header">
+                    <h3>Determinantes</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="word-list" id="determinantes"></div>
+                </div>
+            </div>
+
+            <div class="word-category">
+                <div class="category-header">
+                    <h3>Sustantivos</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="word-list" id="sustantivos"></div>
+                </div>
+            </div>
+
+            <div class="word-category">
+                <div class="category-header">
+                    <h3>Verbos</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="word-list" id="verbos"></div>
+                </div>
+            </div>
+
+            <div class="word-category">
+                <div class="category-header">
+                    <h3>Adjetivos</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="word-list" id="adjetivos"></div>
+                </div>
+            </div>
+
+            <div class="word-category">
+                <div class="category-header">
+                    <h3>Adverbios</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="word-list" id="adverbios"></div>
+                </div>
+            </div>
+        </section>
+    </aside>
+
+    <!-- Modal para mostrar información de la palabra -->
+    <div id="wordModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalWordTitle"></h2>
+            <div class="word-info" id="wordDetails">
+                <!-- La información se cargará aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variables globales
+        let dictionaryData = {};
+
+        // Función para cargar palabras del diccionario
+        async function cargarDiccionario() {
+            try {
+                const response = await fetch('/get_diccionario');
+                if (!response.ok) throw new Error('Error en la respuesta del servidor');
+
+                dictionaryData = await response.json();
+                console.log("Datos del diccionario cargados:", dictionaryData);
+
+                // Mostrar palabras en cada categoría
+                mostrarPalabras('determinantes', dictionaryData.determinantes);
+                mostrarPalabras('sustantivos', dictionaryData.sustantivos);
+                mostrarPalabras('verbos', dictionaryData.verbos);
+                mostrarPalabras('adjetivos', dictionaryData.adjetivos);
+                mostrarPalabras('adverbios', dictionaryData.adverbios);
+
+                // Inicializar acordeón
+                initAccordion();
+
+            } catch (error) {
+                console.error('Error al cargar diccionario:', error);
+                // Mostrar palabras por defecto si hay error
+                mostrarPalabras('determinantes', ['el', 'la', 'los', 'las', 'un', 'una']);
+                mostrarPalabras('sustantivos', ['niño', 'niña', 'perro', 'casa', 'libro', 'manzana']);
+                mostrarPalabras('verbos', ['come', 'baila', 'lee', 'escribe', 'corre', 'habla']);
+                mostrarPalabras('adjetivos', ['grande', 'pequeño', 'azul', 'rápido', 'lento', 'nuevo']);
+                mostrarPalabras('adverbios', ['rápidamente', 'lentamente', 'ahora', 'allí', 'siempre', 'nunca']);
+            }
+        }
+
+        function mostrarPalabras(categoria, palabras) {
+            const container = document.getElementById(categoria);
+            container.innerHTML = '';
+
+            palabras.forEach(palabra => {
+                const span = document.createElement('span');
+                span.className = 'word-item';
+                span.textContent = palabra;
+                span.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    mostrarModalPalabra(palabra, categoria);
+                });
+                span.addEventListener('dblclick', () => {
+                    agregarPalabraAInput(palabra);
+                });
+                container.appendChild(span);
+            });
+        }
+
+        // Función para inicializar el acordeón
+        function initAccordion() {
+            const headers = document.querySelectorAll('.category-header');
+
+            headers.forEach(header => {
+                header.addEventListener('click', () => {
+                    const content = header.nextElementSibling;
+                    const icon = header.querySelector('i');
+
+                    if (content.style.display === 'block') {
+                        content.style.display = 'none';
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    } else {
+                        content.style.display = 'block';
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    }
+                });
+
+                // Inicialmente cerrado
+                header.nextElementSibling.style.display = 'none';
+            });
+        }
+
+        // Función para mostrar el modal con información de la palabra
+        async function mostrarModalPalabra(palabra, categoria) {
+            try {
+                const modal = document.getElementById('wordModal');
+                const modalTitle = document.getElementById('modalWordTitle');
+                const wordDetails = document.getElementById('wordDetails');
+
+                // Mostrar información básica mientras se carga
+                modalTitle.textContent = palabra;
+                wordDetails.innerHTML = '<p>Cargando información...</p>';
+                modal.style.display = 'block';
+
+                // Obtener información detallada
+                const response = await fetch(`/get_word_info?word=${encodeURIComponent(palabra)}`);
+                if (!response.ok) throw new Error('Error al obtener información');
+
+                const wordInfo = await response.json();
+
+                // Mostrar información en el modal
+                wordDetails.innerHTML = `
+                    <p><strong>Tipo:</strong> ${wordInfo.tipo || categoria.slice(0, -1)}</p>
+                    ${wordInfo.genero ? `<p><strong>Género:</strong> ${wordInfo.genero}</p>` : ''}
+                    ${wordInfo.numero ? `<p><strong>Número:</strong> ${wordInfo.numero}</p>` : ''}
+                    ${wordInfo.tiempo ? `<p><strong>Tiempo:</strong> ${wordInfo.tiempo}</p>` : ''}
+                    <p><strong>Ejemplo:</strong> ${generarEjemplo(palabra, categoria)}</p>
+                    <button onclick="agregarPalabraAInput('${palabra}')" style="margin-top: 15px; width: 100%;">
+                        Añadir a la oración
+                    </button>
+                `;
+
+            } catch (error) {
+                console.error('Error al mostrar modal:', error);
+                document.getElementById('wordDetails').innerHTML = `
+                    <p>No se pudieron cargar los detalles para "${palabra}"</p>
+                `;
+            }
+        }
+
+        // Función para agregar palabra al campo de texto
+        function agregarPalabraAInput(palabra) {
+            const input = document.getElementById('sentence-input');
+            const currentValue = input.value.trim();
+
+            if (currentValue === '') {
+                input.value = palabra;
+            } else {
+                input.value = `${currentValue} ${palabra}`;
+            }
+
+            input.focus();
+            cerrarModal();
+        }
+
+        // Función para generar un ejemplo con la palabra
+        function generarEjemplo(palabra, categoria) {
+            const ejemplos = {
+                determinantes: `${palabra} libro está en la mesa`,
+                sustantivos: `El niño come ${palabra}`,
+                verbos: `Juan ${palabra} rápidamente`,
+                adjetivos: `La casa ${palabra} es bonita`,
+                adverbios: `Corre ${palabra} hacia el parque`
+            };
+            return ejemplos[categoria] || `Ejemplo con ${palabra}`;
+        }
+
+        // Función para cerrar el modal
+        function cerrarModal() {
+            document.getElementById('wordModal').style.display = 'none';
+        }
+
+        // Evento para cerrar el modal al hacer clic en la X
+        document.querySelector('.close-modal').addEventListener('click', cerrarModal);
+
+        // Evento para cerrar el modal al hacer clic fuera
+        window.addEventListener('click', (event) => {
+            if (event.target === document.getElementById('wordModal')) {
+                cerrarModal();
+            }
+        });
+
+        // Función para analizar la oración sin recargar la página
+        async function analizarOracion(oracion) {
+            try {
+                // Mostrar loading
+                document.getElementById('loading-indicator').style.display = 'block';
+                document.getElementById('analysis-results').style.display = 'none';
+                document.getElementById('initial-instructions').style.display = 'none';
+                document.getElementById('error-message').style.display = 'none';
+
+                // Enviar la oración al servidor
+                const response = await fetch('/analizar', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: `frase=${encodeURIComponent(oracion)}`
+                });
+
+                if (!response.ok) throw new Error('Error en el análisis');
+
+                const data = await response.json();
+
+                // Mostrar resultados
+                document.getElementById('analysis-meaning').textContent = data.significado || "Oración válida según la gramática del español";
+
+                if (data.arbol_imagen) {
+                    document.getElementById('tree-image-container').innerHTML = `
+                        <img src="${data.arbol_imagen}" alt="Árbol sintáctico">
+                    `;
+                } else {
+                    document.getElementById('tree-image-container').innerHTML = `
+                        <p>No se pudo generar el árbol para esta oración.</p>
+                    `;
+                }
+
+                // Ocultar loading y mostrar resultados
+                document.getElementById('loading-indicator').style.display = 'none';
+                document.getElementById('analysis-results').style.display = 'block';
+
+            } catch (error) {
+                console.error('Error en el análisis:', error);
+                document.getElementById('loading-indicator').style.display = 'none';
+                document.getElementById('error-text').textContent = error.message || "Error al analizar la oración";
+                document.getElementById('error-message').style.display = 'block';
+            }
+        }
+
+        // Evento para el formulario de análisis
+        document.getElementById('analysis-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const oracion = document.getElementById('sentence-input').value.trim();
+            if (oracion) {
+                analizarOracion(oracion);
+            }
+        });
+
+        // Evento para el botón de ejemplo
+        document.getElementById('sugerir-btn').addEventListener('click', async () => {
+            try {
+                const response = await fetch('/generar_ejemplo_inteligente');
+                const data = await response.json();
+                document.getElementById('sentence-input').value = data.frase;
+            } catch (error) {
+                console.error('Error al obtener ejemplo:', error);
+                const ejemplos = [
+                    "el niño come una manzana",
+                    "la niña baila rápidamente",
+                    "Juan escribe un libro pequeño",
+                    "María lee el libro azul",
+                    "él corre a la casa"
+                ];
+                const fraseAleatoria = ejemplos[Math.floor(Math.random() * ejemplos.length)];
+                document.getElementById('sentence-input').value = fraseAleatoria;
+            }
+        });
+
+        // Cargar el diccionario al iniciar
+        document.addEventListener('DOMContentLoaded', cargarDiccionario);
+    </script>
+</body>
+
+</html>
