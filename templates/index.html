@@ -656,13 +656,15 @@
                 document.getElementById('analysis-meaning').textContent = data.significado || "Oración válida según la gramática del español";
 
                 if (data.arbol_imagen) {
+                    // Añadir timestamp para evitar caché del navegador
+                    const timestamp = new Date().getTime();
                     document.getElementById('tree-image-container').innerHTML = `
-                        <img src="${data.arbol_imagen}" alt="Árbol sintáctico">
-                    `;
+                <img src="${data.arbol_imagen}?t=${timestamp}" alt="Árbol sintáctico">
+            `;
                 } else {
                     document.getElementById('tree-image-container').innerHTML = `
-                        <p>No se pudo generar el árbol para esta oración.</p>
-                    `;
+                <p>No se pudo generar el árbol para esta oración.</p>
+            `;
                 }
 
                 // Ocultar loading y mostrar resultados
@@ -676,7 +678,6 @@
                 document.getElementById('error-message').style.display = 'block';
             }
         }
-
         // Evento para el formulario de análisis
         document.getElementById('analysis-form').addEventListener('submit', (e) => {
             e.preventDefault();
