@@ -1,5 +1,14 @@
 {
     "No estoy enojada": {
         "significado": "Estoy muy enojada"
+    },
+    "Tu sabrás": {
+        "significado": "Yo no sé"
+    },
+    "Tampoco tengo hambre": {
+        "significado": "Si tengo pero queria compañia :("
+    },
+    "Tengo frío": {
+        "significado": "Quiero que me des calor"
     }
 }

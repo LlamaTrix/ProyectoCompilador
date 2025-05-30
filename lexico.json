@@ -199,6 +199,10 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
+            "nado": {
+                "tipo": "VERBO",
+                "tiempo": "presente"
+            },
             "jugar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
