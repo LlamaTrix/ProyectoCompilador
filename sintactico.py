@@ -2,8 +2,15 @@ import ply.yacc as yacc
 from lexico import tokens
 
 def p_oracion(p):
-    '''oracion : sujeto predicado'''
-    p[0] = ('ORACION', p[1], p[2])
+    '''
+    oracion : sujeto predicado
+            | sujeto
+            | predicado
+    '''
+    if len(p) == 3:
+        p[0] = ('ORACION', p[1], p[2])
+    else:
+        p[0] = ('ORACION', p[1])
 
 def p_sujeto(p):
     '''sujeto : sintagma_nominal'''

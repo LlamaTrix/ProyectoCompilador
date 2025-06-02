@@ -6,9 +6,9 @@ _tabversion = '3.10'
 
 _lr_method = 'LALR'
 
-_lr_signature = 'ADJETIVO ADVERBIO DETERMINANTE ERROR NOMBRE_PROPIO PREPOSICION_A PRONOMBRE SUSTANTIVO VERBOoracion : sujeto predicadosujeto : sintagma_nominal\n    sintagma_nominal : determinante sustantivo\n                    | determinante sustantivo adjetivo\n                    | pronombre\n                    | nombre_propio\n    \n    predicado : verbo\n              | verbo complemento_directo\n              | verbo complemento_directo complemento_indirecto\n              | verbo complemento_directo adverbio\n              | verbo complemento_indirecto\n              | verbo adverbio\n    complemento_directo : sintagma_nominalcomplemento_indirecto : PREPOSICION_A sintagma_nominaldeterminante : DETERMINANTEsustantivo : SUSTANTIVOverbo : VERBOadjetivo : ADJETIVOpronombre : PRONOMBREnombre_propio : NOMBRE_PROPIOadverbio : ADVERBIO'
+_lr_signature = 'ADJETIVO ADVERBIO DETERMINANTE ERROR NOMBRE_PROPIO PREPOSICION_A PRONOMBRE SUSTANTIVO VERBO\n    oracion : sujeto predicado\n            | sujeto\n            | predicado\n    sujeto : sintagma_nominal\n    sintagma_nominal : determinante sustantivo\n                    | determinante sustantivo adjetivo\n                    | pronombre\n                    | nombre_propio\n    \n    predicado : verbo\n              | verbo complemento_directo\n              | verbo complemento_directo complemento_indirecto\n              | verbo complemento_directo adverbio\n              | verbo complemento_indirecto\n              | verbo adverbio\n    complemento_directo : sintagma_nominalcomplemento_indirecto : PREPOSICION_A sintagma_nominaldeterminante : DETERMINANTEsustantivo : SUSTANTIVOverbo : VERBOadjetivo : ADJETIVOpronombre : PRONOMBREnombre_propio : NOMBRE_PROPIOadverbio : ADVERBIO'
     
-_lr_action_items = {'DETERMINANTE':([0,11,12,19,],[7,7,-17,7,]),'PRONOMBRE':([0,11,12,19,],[8,8,-17,8,]),'NOMBRE_PROPIO':([0,11,12,19,],[9,9,-17,9,]),'$end':([1,5,6,8,9,10,11,12,13,14,15,16,17,18,20,21,22,23,24,25,],[0,-5,-6,-19,-20,-1,-7,-17,-3,-16,-8,-11,-12,-13,-21,-4,-18,-9,-10,-14,]),'VERBO':([2,3,5,6,8,9,13,14,21,22,],[12,-2,-5,-6,-19,-20,-3,-16,-4,-18,]),'SUSTANTIVO':([4,7,],[14,-15,]),'PREPOSICION_A':([5,6,8,9,11,12,13,14,15,18,21,22,],[-5,-6,-19,-20,19,-17,-3,-16,19,-13,-4,-18,]),'ADVERBIO':([5,6,8,9,11,12,13,14,15,18,21,22,],[-5,-6,-19,-20,20,-17,-3,-16,20,-13,-4,-18,]),'ADJETIVO':([13,14,],[22,-16,]),}
+_lr_action_items = {'VERBO':([0,2,4,7,8,11,12,20,21,25,26,],[9,9,-4,-7,-8,-21,-22,-5,-18,-6,-20,]),'DETERMINANTE':([0,5,9,18,],[10,10,-19,10,]),'PRONOMBRE':([0,5,9,18,],[11,11,-19,11,]),'NOMBRE_PROPIO':([0,5,9,18,],[12,12,-19,12,]),'$end':([1,2,3,4,5,7,8,9,11,12,13,14,15,16,17,19,20,21,22,23,24,25,26,],[0,-2,-3,-4,-9,-7,-8,-19,-21,-22,-1,-10,-13,-14,-15,-23,-5,-18,-11,-12,-16,-6,-20,]),'PREPOSICION_A':([5,7,8,9,11,12,14,17,20,21,25,26,],[18,-7,-8,-19,-21,-22,18,-15,-5,-18,-6,-20,]),'ADVERBIO':([5,7,8,9,11,12,14,17,20,21,25,26,],[19,-7,-8,-19,-21,-22,19,-15,-5,-18,-6,-20,]),'SUSTANTIVO':([6,10,],[21,-17,]),'ADJETIVO':([20,21,],[26,-18,]),}
 
 _lr_action = {}
 for _k, _v in _lr_action_items.items():
@@ -17,7 +17,7 @@ for _k, _v in _lr_action_items.items():
       _lr_action[_x][_k] = _y
 del _lr_action_items
 
-_lr_goto_items = {'oracion':([0,],[1,]),'sujeto':([0,],[2,]),'sintagma_nominal':([0,11,19,],[3,18,25,]),'determinante':([0,11,19,],[4,4,4,]),'pronombre':([0,11,19,],[5,5,5,]),'nombre_propio':([0,11,19,],[6,6,6,]),'predicado':([2,],[10,]),'verbo':([2,],[11,]),'sustantivo':([4,],[13,]),'complemento_directo':([11,],[15,]),'complemento_indirecto':([11,15,],[16,23,]),'adverbio':([11,15,],[17,24,]),'adjetivo':([13,],[21,]),}
+_lr_goto_items = {'oracion':([0,],[1,]),'sujeto':([0,],[2,]),'predicado':([0,2,],[3,13,]),'sintagma_nominal':([0,5,18,],[4,17,24,]),'verbo':([0,2,],[5,5,]),'determinante':([0,5,18,],[6,6,6,]),'pronombre':([0,5,18,],[7,7,7,]),'nombre_propio':([0,5,18,],[8,8,8,]),'complemento_directo':([5,],[14,]),'complemento_indirecto':([5,14,],[15,22,]),'adverbio':([5,14,],[16,23,]),'sustantivo':([6,],[20,]),'adjetivo':([20,],[25,]),}
 
 _lr_goto = {}
 for _k, _v in _lr_goto_items.items():
@@ -27,25 +27,27 @@ for _k, _v in _lr_goto_items.items():
 del _lr_goto_items
 _lr_productions = [
   ("S' -> oracion","S'",1,None,None,None),
-  ('oracion -> sujeto predicado','oracion',2,'p_oracion','app1.py',59),
-  ('sujeto -> sintagma_nominal','sujeto',1,'p_sujeto','app1.py',63),
-  ('sintagma_nominal -> determinante sustantivo','sintagma_nominal',2,'p_sintagma_nominal','app1.py',68),
-  ('sintagma_nominal -> determinante sustantivo adjetivo','sintagma_nominal',3,'p_sintagma_nominal','app1.py',69),
-  ('sintagma_nominal -> pronombre','sintagma_nominal',1,'p_sintagma_nominal','app1.py',70),
-  ('sintagma_nominal -> nombre_propio','sintagma_nominal',1,'p_sintagma_nominal','app1.py',71),
-  ('predicado -> verbo','predicado',1,'p_predicado','app1.py',82),
-  ('predicado -> verbo complemento_directo','predicado',2,'p_predicado','app1.py',83),
-  ('predicado -> verbo complemento_directo complemento_indirecto','predicado',3,'p_predicado','app1.py',84),
-  ('predicado -> verbo complemento_directo adverbio','predicado',3,'p_predicado','app1.py',85),
-  ('predicado -> verbo complemento_indirecto','predicado',2,'p_predicado','app1.py',86),
-  ('predicado -> verbo adverbio','predicado',2,'p_predicado','app1.py',87),
-  ('complemento_directo -> sintagma_nominal','complemento_directo',1,'p_complemento_directo','app1.py',92),
-  ('complemento_indirecto -> PREPOSICION_A sintagma_nominal','complemento_indirecto',2,'p_complemento_indirecto','app1.py',96),
-  ('determinante -> DETERMINANTE','determinante',1,'p_determinante','app1.py',101),
-  ('sustantivo -> SUSTANTIVO','sustantivo',1,'p_sustantivo','app1.py',105),
-  ('verbo -> VERBO','verbo',1,'p_verbo','app1.py',109),
-  ('adjetivo -> ADJETIVO','adjetivo',1,'p_adjetivo','app1.py',113),
-  ('pronombre -> PRONOMBRE','pronombre',1,'p_pronombre','app1.py',117),
-  ('nombre_propio -> NOMBRE_PROPIO','nombre_propio',1,'p_nombre_propio','app1.py',121),
-  ('adverbio -> ADVERBIO','adverbio',1,'p_adverbio','app1.py',125),
+  ('oracion -> sujeto predicado','oracion',2,'p_oracion','sintactico.py',6),
+  ('oracion -> sujeto','oracion',1,'p_oracion','sintactico.py',7),
+  ('oracion -> predicado','oracion',1,'p_oracion','sintactico.py',8),
+  ('sujeto -> sintagma_nominal','sujeto',1,'p_sujeto','sintactico.py',16),
+  ('sintagma_nominal -> determinante sustantivo','sintagma_nominal',2,'p_sintagma_nominal','sintactico.py',21),
+  ('sintagma_nominal -> determinante sustantivo adjetivo','sintagma_nominal',3,'p_sintagma_nominal','sintactico.py',22),
+  ('sintagma_nominal -> pronombre','sintagma_nominal',1,'p_sintagma_nominal','sintactico.py',23),
+  ('sintagma_nominal -> nombre_propio','sintagma_nominal',1,'p_sintagma_nominal','sintactico.py',24),
+  ('predicado -> verbo','predicado',1,'p_predicado','sintactico.py',35),
+  ('predicado -> verbo complemento_directo','predicado',2,'p_predicado','sintactico.py',36),
+  ('predicado -> verbo complemento_directo complemento_indirecto','predicado',3,'p_predicado','sintactico.py',37),
+  ('predicado -> verbo complemento_directo adverbio','predicado',3,'p_predicado','sintactico.py',38),
+  ('predicado -> verbo complemento_indirecto','predicado',2,'p_predicado','sintactico.py',39),
+  ('predicado -> verbo adverbio','predicado',2,'p_predicado','sintactico.py',40),
+  ('complemento_directo -> sintagma_nominal','complemento_directo',1,'p_complemento_directo','sintactico.py',45),
+  ('complemento_indirecto -> PREPOSICION_A sintagma_nominal','complemento_indirecto',2,'p_complemento_indirecto','sintactico.py',49),
+  ('determinante -> DETERMINANTE','determinante',1,'p_determinante','sintactico.py',53),
+  ('sustantivo -> SUSTANTIVO','sustantivo',1,'p_sustantivo','sintactico.py',57),
+  ('verbo -> VERBO','verbo',1,'p_verbo','sintactico.py',61),
+  ('adjetivo -> ADJETIVO','adjetivo',1,'p_adjetivo','sintactico.py',65),
+  ('pronombre -> PRONOMBRE','pronombre',1,'p_pronombre','sintactico.py',69),
+  ('nombre_propio -> NOMBRE_PROPIO','nombre_propio',1,'p_nombre_propio','sintactico.py',73),
+  ('adverbio -> ADVERBIO','adverbio',1,'p_adverbio','sintactico.py',77),
 ]
