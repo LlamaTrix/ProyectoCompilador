@@ -9154,13 +9154,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "estás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "sé": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -9211,13 +9204,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "era": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "soy": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -9251,13 +9237,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "segunda",
-                "numero": "singular"
-            },
-            "estaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "voy": {
@@ -9374,20 +9353,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "mira": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "segunda",
-                "numero": "singular"
-            },
-            "sea": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "dijo": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -9402,13 +9367,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "podría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "hablar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -9418,13 +9376,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "segunda",
-                "numero": "singular"
-            },
-            "fuera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "pasa": {
@@ -9444,27 +9395,6 @@
             "tener": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "había": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "tenía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "haciendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "vale": {
                 "tipo": "VERBO",
@@ -9493,13 +9423,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "sido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
             },
             "dice": {
                 "tipo": "VERBO",
@@ -9533,13 +9456,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "quería": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "será": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -9571,13 +9487,6 @@
             "hacerlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "visto": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
             },
             "importa": {
                 "tipo": "VERBO",
@@ -9632,20 +9541,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "pasado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "debería": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "cuenta": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -9671,25 +9566,11 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "vaya": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "pensé": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "sabía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "van": {
@@ -9727,13 +9608,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "sería": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "pasó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -9752,25 +9626,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "hablando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "supongo": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "iba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "ves": {
@@ -9805,13 +9665,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "gustaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "venir": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -9831,13 +9684,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "dijiste": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -9873,13 +9719,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "venga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "déjame": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -9897,20 +9736,6 @@
             "tomar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "haya": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "hubiera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "necesita": {
                 "tipo": "VERBO",
@@ -9969,25 +9794,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "pueda": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "fui": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "tenido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "trabajar": {
@@ -10012,13 +9823,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "podía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "quieren": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -10029,13 +9833,6 @@
             "debemos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "estabas": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
@@ -10076,34 +9873,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "eran": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "ido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "esté": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "diciendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "pregunta": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -10124,13 +9893,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "pasando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "sabemos": {
                 "tipo": "VERBO",
@@ -10165,13 +9927,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "haga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "fueron": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -10179,33 +9934,12 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "pensando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "dime": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "tuve": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "buscando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "trata": {
                 "tipo": "VERBO",
@@ -10271,26 +10005,12 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "estaban": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "estuvo": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "esperando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "matar": {
                 "tipo": "VERBO",
@@ -10310,13 +10030,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "oído": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "dio": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -10331,33 +10044,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "tenga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "habría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "recuerdo": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "siendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "verte": {
                 "tipo": "VERBO",
@@ -10413,20 +10105,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "dado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "venido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "piensa": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -10434,43 +10112,15 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "deberíamos": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "llamar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "diga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "pienso": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "digas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "segunda",
-                "numero": "singular"
-            },
-            "perdido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "lleva": {
@@ -10548,23 +10198,9 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "haría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "jugar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "puesto": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
             },
             "buscar": {
                 "tipo": "VERBO",
@@ -10620,20 +10256,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "trabajando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "tratando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "trato": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -10648,23 +10270,9 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "quieras": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "segunda",
-                "numero": "singular"
-            },
             "usar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "podríamos": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "primera",
-                "numero": "plural"
             },
             "estaré": {
                 "tipo": "VERBO",
@@ -10683,27 +10291,6 @@
             "decirle": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "encontrado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "recuerdas": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "cállate": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "sucede": {
                 "tipo": "VERBO",
@@ -10734,25 +10321,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "pensaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "siente": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "haz": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "segunda",
                 "numero": "singular"
             },
             "estuve": {
@@ -10790,20 +10363,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "estábamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "vuelto": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "cita": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -10833,32 +10392,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "disculpe": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "mire": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "tuyo": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "estaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "ganar": {
@@ -10870,13 +10408,6 @@
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "llegado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "ocurre": {
@@ -10904,13 +10435,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "quiera": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -10957,25 +10481,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "tenías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "creí": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "pase": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "sentir": {
@@ -11035,26 +10545,12 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "sean": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "dijeron": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "quisiera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "tendrá": {
                 "tipo": "VERBO",
@@ -11070,37 +10566,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "dejado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "espere": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "decirme": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "tengas": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "hacía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "sal": {
                 "tipo": "VERBO",
@@ -11112,20 +10580,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "estés": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "tendrás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "entra": {
                 "tipo": "VERBO",
@@ -11152,20 +10606,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "intentando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "decía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "salió": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -11191,13 +10631,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "pudiera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "prometo": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -11217,20 +10650,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "segunda",
-                "numero": "singular"
-            },
-            "querías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "diría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "deseo": {
@@ -11258,13 +10677,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "vayas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "segunda",
-                "numero": "singular"
-            },
             "encontramos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -11285,13 +10697,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "dale": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
             },
             "hazlo": {
                 "tipo": "VERBO",
@@ -11325,13 +10730,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "miren": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "tendremos": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -11339,30 +10737,9 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "mirando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "baja": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "podrían": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "esperaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
@@ -11409,20 +10786,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "viendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "parecía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "sucedió": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -11461,13 +10824,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "deje": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "trabaja": {
                 "tipo": "VERBO",
@@ -11519,13 +10875,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "creía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "llega": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -11544,13 +10893,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "cambiado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "mirar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -11559,20 +10901,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "harás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "tendría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -11586,13 +10914,6 @@
             "sacar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "estuviera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "creen": {
                 "tipo": "VERBO",
@@ -11616,27 +10937,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "vuelva": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "verás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "hablado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "encontró": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -11650,13 +10950,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "solía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "llevó": {
                 "tipo": "VERBO",
@@ -11701,34 +10994,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "veamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "viva": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "escúchame": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "podamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "diferencia": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -11739,13 +11004,6 @@
             "irnos": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "teníamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
             },
             "volveré": {
                 "tipo": "VERBO",
@@ -11758,13 +11016,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "habían": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "leer": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -11774,13 +11025,6 @@
                 "tiempo": "futuro",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "plural"
-            },
-            "tenían": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
                 "numero": "plural"
             },
             "parar": {
@@ -11844,13 +11088,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "dejes": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "darte": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -11870,23 +11107,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "necesitaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "parecer": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "podido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
             },
             "lee": {
                 "tipo": "VERBO",
@@ -11912,13 +11135,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "jugando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "tratar": {
                 "tipo": "VERBO",
@@ -11948,13 +11164,6 @@
                 "modo": "indicativo",
                 "persona": "segunda",
                 "numero": "singular"
-            },
-            "sepa": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "volvió": {
                 "tipo": "VERBO",
@@ -12010,13 +11219,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "teniendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "llamaré": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -12028,13 +11230,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "vea": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -12081,23 +11276,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "acabado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "quedarme": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "vayan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "probar": {
                 "tipo": "VERBO",
@@ -12113,13 +11294,6 @@
             "hacerle": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "bromeando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "preocupa": {
                 "tipo": "VERBO",
@@ -12149,13 +11323,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "estaremos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "traer": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -12175,31 +11342,10 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "debía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "tome": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "ama": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "tuviera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -12209,13 +11355,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "serás": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "correr": {
                 "tipo": "VERBO",
@@ -12235,13 +11374,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "hagan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "ayudarme": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -12256,13 +11388,6 @@
             "haberlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "llegue": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "cierra": {
                 "tipo": "VERBO",
@@ -12281,13 +11406,6 @@
             "evitar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "dando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "intentar": {
                 "tipo": "VERBO",
@@ -12312,13 +11430,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "traído": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "fuimos": {
@@ -12375,41 +11486,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "tomado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "salga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "ganado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "usando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "habías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "segunda",
-                "numero": "singular"
-            },
             "quedan": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -12445,27 +11521,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "deberían": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "esperen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "estuviste": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "tommy": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -12473,26 +11528,12 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "salido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "depende": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "tomando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "quedarse": {
                 "tipo": "VERBO",
@@ -12541,13 +11582,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "encantaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "dejas": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -12569,13 +11603,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "saliendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "refieres": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -12594,13 +11621,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "estén": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "trampa": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -12612,13 +11632,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "llame": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "volverá": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -12629,13 +11642,6 @@
             "preguntar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "yendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "oiga": {
                 "tipo": "VERBO",
@@ -12662,13 +11668,6 @@
                 "persona": "segunda",
                 "numero": "singular"
             },
-            "hubiese": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "coger": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -12684,13 +11683,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "corriendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "muere": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -12704,13 +11696,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "vayamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
             },
             "estan": {
                 "tipo": "VERBO",
@@ -12731,13 +11716,6 @@
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "sentado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "llegamos": {
@@ -12766,13 +11744,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "escuche": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "sentí": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -12794,13 +11765,6 @@
             "luchar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "hagamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
             },
             "bebe": {
                 "tipo": "VERBO",
@@ -12841,13 +11805,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "déjeme": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "cantar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -12874,25 +11831,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "gustaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "vengo": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "hable": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "sirve": {
@@ -12944,13 +11887,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "perdone": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "puse": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -12983,42 +11919,14 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "nosotras": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "segunda",
-                "numero": "singular"
-            },
-            "llevaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "dejarlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "preocupe": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "dejaste": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "maría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -13043,23 +11951,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "oigan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "pelear": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "acabas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "segunda",
-                "numero": "singular"
             },
             "necesitar": {
                 "tipo": "VERBO",
@@ -13071,13 +11965,6 @@
                 "modo": "indicativo",
                 "persona": "segunda",
                 "numero": "singular"
-            },
-            "viviendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "echar": {
                 "tipo": "VERBO",
@@ -13097,13 +11984,6 @@
             "trajo": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "conocía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
@@ -13130,20 +12010,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "quede": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "lleve": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "diste": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -13151,25 +12017,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "tengan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "hablé": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "sentía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "date": {
@@ -13190,26 +12042,12 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "ayude": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "supe": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "acuerdas": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "charles": {
                 "tipo": "VERBO",
@@ -13219,20 +12057,6 @@
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "hiciera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "querría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -13253,13 +12077,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "sepas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "debió": {
                 "tipo": "VERBO",
@@ -13296,32 +12113,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "éramos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "digamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "regresa": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "escuchado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "creerlo": {
@@ -13365,13 +12161,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "siga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -13453,20 +12242,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "ponga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "conseguido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "puto": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -13488,25 +12263,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "mintiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "créeme": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "habido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "confía": {
@@ -13522,34 +12283,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "recibido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "fuese": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "dé": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "escuchando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "levántate": {
                 "tipo": "VERBO",
@@ -13579,23 +12312,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "dígame": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "elegir": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "llamando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "quedo": {
                 "tipo": "VERBO",
@@ -13618,13 +12337,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "hayan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "cuento": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -13632,25 +12344,11 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "perdiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "gustó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "sabido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "fué": {
@@ -13700,26 +12398,12 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "quedado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "piensan": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "maté": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "explicar": {
                 "tipo": "VERBO",
@@ -13732,13 +12416,6 @@
             "manejar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "poniendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "resolver": {
                 "tipo": "VERBO",
@@ -13770,13 +12447,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "puedan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "llevará": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -13796,13 +12466,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "durmiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "intenté": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -13816,13 +12479,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "tenia": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "olvides": {
                 "tipo": "VERBO",
@@ -13838,34 +12494,13 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "dejen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "disparar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "llamaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "haberme": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "iban": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "hables": {
                 "tipo": "VERBO",
@@ -13874,13 +12509,6 @@
             "olvidar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "escuchen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "pertenece": {
                 "tipo": "VERBO",
@@ -13910,13 +12538,6 @@
                 "persona": "segunda",
                 "numero": "singular"
             },
-            "volviendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "pensó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -13930,13 +12551,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "vuelvas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "pongo": {
                 "tipo": "VERBO",
@@ -13991,40 +12605,12 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "preguntaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "querían": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "escribió": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "comprendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "íbamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
             },
             "pensamos": {
                 "tipo": "VERBO",
@@ -14033,23 +12619,9 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "enviado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "discutir": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "siéntese": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "pide": {
                 "tipo": "VERBO",
@@ -14101,40 +12673,12 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "empezando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "irás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "vieron": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "tengamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "veía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "casarse": {
                 "tipo": "VERBO",
@@ -14183,20 +12727,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "termine": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "pidiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "viniste": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -14211,40 +12741,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "william": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "alan": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "leído": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "hablaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "guste": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "hablan": {
                 "tipo": "VERBO",
@@ -14271,23 +12773,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "podías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "verle": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "muriendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "destruir": {
                 "tipo": "VERBO",
@@ -14320,13 +12808,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "des": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "segunda",
-                "numero": "singular"
             },
             "conocen": {
                 "tipo": "VERBO",
@@ -14399,13 +12880,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "suponía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "muévete": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -14428,13 +12902,6 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "trabajaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "empezamos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -14448,13 +12915,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "desearía": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "quedas": {
                 "tipo": "VERBO",
@@ -14487,13 +12947,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "llorando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "pregunté": {
                 "tipo": "VERBO",
@@ -14574,13 +13027,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "sabéis": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "viven": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -14594,27 +13040,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "salgan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "habíamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "caído": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
             },
             "ruego": {
                 "tipo": "VERBO",
@@ -14666,13 +13091,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "comido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "gustas": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -14698,13 +13116,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "amaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "pasan": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -14715,13 +13126,6 @@
             "preguntarte": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "crea": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "huir": {
                 "tipo": "VERBO",
@@ -14748,32 +13152,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "alice": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "rose": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "tercera",
-                "numero": "indefinido"
-            },
             "empecé": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "importaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "hablaré": {
@@ -14790,37 +13173,9 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "estemos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "caminando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "hacerse": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "daría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "supiera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "matarlo": {
                 "tipo": "VERBO",
@@ -14832,13 +13187,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "den": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "vives": {
                 "tipo": "VERBO",
@@ -14875,20 +13223,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "andando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "piense": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "estudiar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -14919,13 +13253,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "plural"
-            },
-            "vean": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
                 "numero": "plural"
             },
             "encontrarlo": {
@@ -14969,13 +13296,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "charla": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "matarte": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -14984,13 +13304,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "fueran": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "plural"
             },
@@ -15023,46 +13336,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "venía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "vivía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "odia": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "mires": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "siguiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "tratado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "contenta": {
@@ -15079,31 +13357,10 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "comiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "quedará": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "trabajado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "aléjate": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -15113,20 +13370,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "estuvimos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "matando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "permitir": {
                 "tipo": "VERBO",
@@ -15161,20 +13404,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "llegando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "encuentre": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "cumplir": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -15190,20 +13419,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "trataba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "preguntando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "quedamos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -15214,13 +13429,6 @@
             "saltar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "dijera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "sabrá": {
                 "tipo": "VERBO",
@@ -15287,13 +13495,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "iría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "miras": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -15308,20 +13509,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "llevando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "volvamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "salimos": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -15332,13 +13519,6 @@
             "casarme": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "regrese": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "recibí": {
                 "tipo": "VERBO",
@@ -15353,13 +13533,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "míos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "suceder": {
                 "tipo": "VERBO",
@@ -15411,13 +13584,6 @@
                 "persona": "segunda",
                 "numero": "singular"
             },
-            "dejando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "leí": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -15430,13 +13596,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "aprendido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "estarías": {
@@ -15472,27 +13631,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "segunda",
-                "numero": "singular"
-            },
-            "pasaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "sigan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "fred": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "llamaste": {
@@ -15581,13 +13719,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "daba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "suéltame": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -15599,13 +13730,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "preferiría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -15627,13 +13751,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "vendría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "servir": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -15643,20 +13760,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "plural"
-            },
-            "salgamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "pongas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "plural"
             },
             "ponerse": {
@@ -15684,13 +13787,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "hubieran": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "ganó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -15701,13 +13797,6 @@
             "gritar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "viniendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "permanecer": {
                 "tipo": "VERBO",
@@ -15766,13 +13855,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "bebiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "volveremos": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -15785,13 +13867,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "plural"
-            },
-            "seamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
                 "numero": "plural"
             },
             "vivimos": {
@@ -15833,20 +13908,6 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "pensaste": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "vengas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "recompensa": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -15868,23 +13929,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "dígale": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "llevarlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "vivido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
             },
             "decidió": {
                 "tipo": "VERBO",
@@ -15893,13 +13940,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "ayudando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "ayudó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -15907,43 +13947,15 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "preguntado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "muera": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "verlos": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "queríamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
             },
             "ron": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "plural"
-            },
-            "hagámoslo": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
                 "numero": "plural"
             },
             "creas": {
@@ -16039,20 +14051,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "abra": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "sucediendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "parezca": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -16096,26 +14094,12 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "leyendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "salen": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "volando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "lograr": {
                 "tipo": "VERBO",
@@ -16135,13 +14119,6 @@
             "abandonar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "quieran": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "darles": {
                 "tipo": "VERBO",
@@ -16236,20 +14213,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "asegurarme": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "intentas": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "pare": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -16260,13 +14223,6 @@
             "darnos": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "tomen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "buscas": {
                 "tipo": "VERBO",
@@ -16282,13 +14238,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "funcionando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "debiste": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -16300,25 +14249,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "vuelvan": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "prometí": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "prometido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "asegúrate": {
@@ -16339,20 +14274,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "luchando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "podían": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "damos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -16360,23 +14281,9 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "gritando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "nadar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "sabían": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "compañera": {
                 "tipo": "VERBO",
@@ -16408,13 +14315,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "empezado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "fiebre": {
@@ -16480,13 +14380,6 @@
                 "persona": "segunda",
                 "numero": "singular"
             },
-            "digan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "explica": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -16499,13 +14392,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "plural"
-            },
-            "podíamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
                 "numero": "plural"
             },
             "hablarle": {
@@ -16569,31 +14455,10 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "dirás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "terminamos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "estando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "esperemos": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
                 "persona": "primera",
                 "numero": "plural"
             },
@@ -16608,25 +14473,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "acabe": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "intentaré": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "olvide": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "escribí": {
@@ -16640,13 +14491,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "recuerde": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -16745,32 +14589,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "abran": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "estuvieras": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "segunda",
-                "numero": "singular"
-            },
-            "cuídate": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "ocurra": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "déjala": {
@@ -16791,39 +14614,11 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "trajiste": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "intentaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "olvidó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "enfrente": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "echado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "manda": {
@@ -16857,13 +14652,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "sabría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "charlotte": {
                 "tipo": "VERBO",
@@ -16906,20 +14694,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "habia": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "pasara": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "adivinar": {
@@ -16987,13 +14761,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "deme": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "querrá": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -17030,13 +14797,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "volverás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "calla": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -17058,33 +14818,12 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "traiga": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "segunda",
-                "numero": "singular"
-            },
             "cuéntame": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "apúrate": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "segunda",
-                "numero": "singular"
-            },
-            "investigando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "morirá": {
                 "tipo": "VERBO",
@@ -17121,13 +14860,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "pasaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "esperaré": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -17146,26 +14878,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "sabíamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "trabajamos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "entrando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "requiere": {
                 "tipo": "VERBO",
@@ -17202,13 +14920,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "atreves": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "resultó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -17222,27 +14933,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "escribiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "abandonado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "dejaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "pagó": {
                 "tipo": "VERBO",
@@ -17269,20 +14959,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "funcione": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "pasen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "plural"
             },
@@ -17326,30 +15002,9 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "actuando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "levantar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "váyanse": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "escape": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "pinta": {
                 "tipo": "VERBO",
@@ -17357,13 +15012,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "marcus": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "pasaron": {
                 "tipo": "VERBO",
@@ -17387,13 +15035,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "incluyendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "conocerlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -17401,13 +15042,6 @@
             "gilipollas": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "váyase": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "dejame": {
                 "tipo": "VERBO",
@@ -17430,13 +15064,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "necesite": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "apetece": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -17450,13 +15077,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "deba": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "tomaste": {
                 "tipo": "VERBO",
@@ -17501,20 +15121,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "contando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "habrías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "sonar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -17525,13 +15131,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "dejemos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
             },
             "convertirse": {
                 "tipo": "VERBO",
@@ -17582,13 +15181,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "tocando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "acepta": {
                 "tipo": "VERBO",
@@ -17648,32 +15240,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "pudimos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "prima": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "discúlpame": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "buscado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "pudieron": {
@@ -17697,13 +15268,6 @@
                 "persona": "segunda",
                 "numero": "singular"
             },
-            "buscaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "empiezo": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -17711,25 +15275,11 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "preparando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "mostraré": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "intente": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "llevarla": {
@@ -17761,30 +15311,9 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "cantando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "hannah": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "hayamos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "seguía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
@@ -17838,37 +15367,9 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "tirado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "conseguiré": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "empleado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "hacían": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "serían": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "vinimos": {
                 "tipo": "VERBO",
@@ -17882,13 +15383,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "mataría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "háblame": {
@@ -17905,34 +15399,13 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "volvería": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "evitarlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "quédese": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "llamarlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "viniera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "sentirse": {
                 "tipo": "VERBO",
@@ -17941,20 +15414,6 @@
             "haberla": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "trate": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "ellen": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "llévame": {
                 "tipo": "VERBO",
@@ -17977,13 +15436,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "suceda": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "pierdes": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -18001,20 +15453,6 @@
             "mandar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "vendido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
-            "sepan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "abrió": {
                 "tipo": "VERBO",
@@ -18037,13 +15475,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "cambiando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "disculparme": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -18058,25 +15489,11 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "mantente": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "tómalo": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
-                "numero": "singular"
-            },
-            "empiece": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
                 "numero": "singular"
             },
             "guay": {
@@ -18090,36 +15507,15 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "maten": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "ethan": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "entren": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "pregúntale": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "ayudado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "devolver": {
@@ -18137,26 +15533,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "prestado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "dijimos": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "considerado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
             },
             "vendrán": {
                 "tipo": "VERBO",
@@ -18170,20 +15552,6 @@
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "plural"
-            },
-            "planeando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "tendríamos": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "primera",
                 "numero": "plural"
             },
             "sabrás": {
@@ -18214,13 +15582,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "tomes": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "robaron": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -18232,34 +15593,6 @@
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "habrían": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "pregunte": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "sabiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "mantenga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -18285,37 +15618,9 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "diera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "bailando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "decide": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "prometiste": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "refería": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
@@ -18356,13 +15661,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "importaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "atacó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -18376,13 +15674,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "vendiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "seguiré": {
                 "tipo": "VERBO",
@@ -18416,13 +15707,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "considerando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "conocerla": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -18431,13 +15715,6 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "baje": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -18451,13 +15728,6 @@
             "mandó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "liz": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
@@ -18483,26 +15753,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "peleando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "míralo": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "dejara": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "lanzar": {
                 "tipo": "VERBO",
@@ -18540,13 +15796,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "decían": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "gustar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -18565,13 +15814,6 @@
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "reverendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "representa": {
                 "tipo": "VERBO",
@@ -18616,13 +15858,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "estaríamos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "apaga": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -18652,13 +15887,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "hacías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "moverse": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -18672,13 +15900,6 @@
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "logrado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "sentarte": {
@@ -18714,13 +15935,6 @@
             "averiguarlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "fíjate": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "segunda",
-                "numero": "singular"
             },
             "regresaré": {
                 "tipo": "VERBO",
@@ -18786,26 +16000,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "resuelto": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "dimos": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "conduciendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "merezco": {
                 "tipo": "VERBO",
@@ -18871,13 +16071,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "vigilando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "toman": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -18939,13 +16132,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "quedaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "enteré": {
                 "tipo": "VERBO",
                 "tiempo": "futuro",
@@ -18973,34 +16159,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "robando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "salgas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "viera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "disparen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "alfombra": {
                 "tipo": "VERBO",
@@ -19045,20 +16203,6 @@
             "asegurar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "recuerden": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "pongan": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "permítame": {
                 "tipo": "VERBO",
@@ -19135,20 +16279,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "lleguemos": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "plural"
-            },
-            "suba": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "importan": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -19156,23 +16286,9 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "soñando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "eliminar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "llamen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "cazar": {
                 "tipo": "VERBO",
@@ -19196,13 +16312,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "salía": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "participar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -19225,13 +16334,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "regresado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "practicar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -19253,13 +16355,6 @@
             "enviaron": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "seguí": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
@@ -19297,13 +16392,6 @@
             "convertir": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "recibiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "agarra": {
                 "tipo": "VERBO",
@@ -19344,26 +16432,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "traigan": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "pensabas": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "singular"
-            },
-            "pudiéramos": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
             },
             "sentirme": {
                 "tipo": "VERBO",
@@ -19376,13 +16450,6 @@
             "hacernos": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "estudiando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "sacarte": {
                 "tipo": "VERBO",
@@ -19402,13 +16469,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "bebido": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "defender": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -19423,13 +16483,6 @@
             "lavar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "saque": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "hablarme": {
                 "tipo": "VERBO",
@@ -19449,33 +16502,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "pierdas": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "segunda",
-                "numero": "singular"
-            },
             "comes": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "consiga": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "decírmelo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "creó": {
                 "tipo": "VERBO",
@@ -19495,40 +16527,12 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "be": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "dejaremos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "empieces": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "cambie": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "cayendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "preguntes": {
                 "tipo": "VERBO",
@@ -19537,30 +16541,9 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "odiaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "cargar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "cafetería": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "querrías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "segunda",
-                "numero": "singular"
             },
             "entramos": {
                 "tipo": "VERBO",
@@ -19583,23 +16566,9 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "causado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "oírme": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "lleven": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "encontrarte": {
                 "tipo": "VERBO",
@@ -19626,13 +16595,6 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "juzgado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "singular"
-            },
             "invito": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -19640,26 +16602,12 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "espíritus": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "ponemos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
                 "persona": "primera",
                 "numero": "plural"
-            },
-            "miraba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "quisieras": {
                 "tipo": "VERBO",
@@ -19689,13 +16637,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "trabajé": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "esperad": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -19717,13 +16658,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "allison": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "primera",
-                "numero": "singular"
-            },
             "oírlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -19738,20 +16672,6 @@
             "reconocer": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "huyendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
-            "ayudaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "vuela": {
                 "tipo": "VERBO",
@@ -19774,13 +16694,6 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "hubiéramos": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "primera",
-                "numero": "plural"
-            },
             "llenar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -19797,13 +16710,6 @@
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
-                "numero": "singular"
-            },
-            "hígado": {
-                "tipo": "VERBO",
-                "tiempo": "pasado",
-                "modo": "indefinido",
-                "persona": "indefinido",
                 "numero": "singular"
             },
             "elige": {
@@ -19824,13 +16730,6 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "bajando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "escoger": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
@@ -19843,33 +16742,12 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
-            "cuente": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "ganando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "abandonó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "encuentren": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "conseguirlo": {
                 "tipo": "VERBO",
@@ -19910,13 +16788,6 @@
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
-            },
-            "subiendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "empiezas": {
                 "tipo": "VERBO",
@@ -19992,24 +16863,10 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "decías": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "norman": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
-            "lleguen": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "plural"
             },
@@ -20059,13 +16916,6 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "ocurriendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "logró": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
@@ -20098,13 +16948,6 @@
                 "tipo": "VERBO",
                 "tiempo": "futuro",
                 "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "conozca": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
                 "persona": "tercera",
                 "numero": "singular"
             },
@@ -20171,23 +17014,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "haciéndolo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "pintar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "pagando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "oreja": {
                 "tipo": "VERBO",
@@ -20238,23 +17067,9 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
-            "use": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "invitó": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "dejaba": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "singular"
@@ -20270,23 +17085,9 @@
                 "persona": "primera",
                 "numero": "singular"
             },
-            "sangrando": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
-            },
             "explicarlo": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "harían": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "plural"
             },
             "juzgar": {
                 "tipo": "VERBO",
@@ -20295,13 +17096,6 @@
             "gastar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "buscarte": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "segunda",
-                "numero": "singular"
             },
             "empiezan": {
                 "tipo": "VERBO",
@@ -20317,13 +17111,6 @@
             "negociar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "moviendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "buscarla": {
                 "tipo": "VERBO",
@@ -20361,40 +17148,12 @@
                 "persona": "primera",
                 "numero": "plural"
             },
-            "vendrás": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "imperativo",
-                "persona": "tercera",
-                "numero": "plural"
-            },
             "volvieron": {
                 "tipo": "VERBO",
                 "tiempo": "pasado",
                 "modo": "indicativo",
                 "persona": "tercera",
                 "numero": "plural"
-            },
-            "vera": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "pasaste": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "indicativo",
-                "persona": "tercera",
-                "numero": "singular"
-            },
-            "entendiste": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "advierto": {
                 "tipo": "VERBO",
@@ -20406,13 +17165,6 @@
             "escucharme": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "tranquilízate": {
-                "tipo": "VERBO",
-                "tiempo": "presente",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             },
             "pasear": {
                 "tipo": "VERBO",
@@ -20429,13 +17181,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "case": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "aprende": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -20450,13 +17195,6 @@
                 "persona": "tercera",
                 "numero": "plural"
             },
-            "llevaría": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "cnd",
-                "persona": "tercera",
-                "numero": "singular"
-            },
             "demuestra": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -20467,13 +17205,6 @@
             "liberar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "riendo": {
-                "tipo": "VERBO",
-                "tiempo": "indefinido",
-                "modo": "indefinido",
-                "persona": "indefinido",
-                "numero": "indefinido"
             },
             "vigila": {
                 "tipo": "VERBO",
@@ -20493,13 +17224,6 @@
             "quemar": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
-            },
-            "estuviese": {
-                "tipo": "VERBO",
-                "tiempo": "imperativo",
-                "modo": "sub",
-                "persona": "tercera",
-                "numero": "singular"
             }
         },
         "adjetivos": {
@@ -26108,74 +22832,8 @@
             }
         },
         "preposiciones": {
-            "de": {
-                "tipo": "PREPOSICION_DE"
-            },
             "a": {
                 "tipo": "PREPOSICION_A"
-            },
-            "en": {
-                "tipo": "PREPOSICION_EN"
-            },
-            "por": {
-                "tipo": "PREPOSICION_POR"
-            },
-            "con": {
-                "tipo": "PREPOSICION_CON"
-            },
-            "para": {
-                "tipo": "PREPOSICION_PARA"
-            },
-            "del": {
-                "tipo": "PREPOSICION_DEL"
-            },
-            "al": {
-                "tipo": "PREPOSICION_AL"
-            },
-            "sobre": {
-                "tipo": "PREPOSICION_SOBRE"
-            },
-            "sin": {
-                "tipo": "PREPOSICION_SIN"
-            },
-            "desde": {
-                "tipo": "PREPOSICION_DESDE"
-            },
-            "entre": {
-                "tipo": "PREPOSICION_ENTRE"
-            },
-            "durante": {
-                "tipo": "PREPOSICION_DURANTE"
-            },
-            "contra": {
-                "tipo": "PREPOSICION_CONTRA"
-            },
-            "hacia": {
-                "tipo": "PREPOSICION_HACIA"
-            },
-            "bajo": {
-                "tipo": "PREPOSICION_BAJO"
-            },
-            "tras": {
-                "tipo": "PREPOSICION_TRAS"
-            },
-            "según": {
-                "tipo": "PREPOSICION_SEGÚN"
-            },
-            "ante": {
-                "tipo": "PREPOSICION_ANTE"
-            },
-            "excepto": {
-                "tipo": "PREPOSICION_EXCEPTO"
-            },
-            "in": {
-                "tipo": "PREPOSICION_IN"
-            },
-            "do": {
-                "tipo": "PREPOSICION_DO"
-            },
-            "so": {
-                "tipo": "PREPOSICION_SO"
             }
         }
     }
