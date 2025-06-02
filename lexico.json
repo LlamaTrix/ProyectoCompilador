@@ -111,11 +111,6 @@
                 "genero": "masculino",
                 "numero": "singular"
             },
-            "toda": {
-                "tipo": "DETERMINANTE",
-                "genero": "femenino",
-                "numero": "singular"
-            },
             "cada": {
                 "tipo": "DETERMINANTE",
                 "genero": "neutral",
