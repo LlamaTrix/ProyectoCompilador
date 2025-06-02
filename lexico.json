@@ -21161,1139 +21161,144 @@
         },
         "nombres_propios": {
             "hola": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "casa": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "estado": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "madre": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "mierda": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "amor": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
             },
             "ayuda": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "loco": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "john": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "plan": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "jack": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "perro": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "viaje": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "sexo": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "the": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
             },
             "sam": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "york": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "michael": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "joe": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "david": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "tonto": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "carta": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "frank": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "george": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "universidad": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "carajo": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "mike": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             },
             "gobierno": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "cámara": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "regalo": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "navidad": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "verdadero": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "rato": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "infierno": {
-                "tipo": "NOMBRE_PROPIO"
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "neutral"
             },
             "peter": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "consejo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "iglesia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "departamento": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "paul": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lindo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "you": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "perra": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "san": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "henry": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "max": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "james": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "planeta": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "harry": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jesús": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "joder": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "estación": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "nena": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jimmy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "bill": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "interior": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "londres": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "steve": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "gay": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "alex": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jane": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "um": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "parís": {
                 "tipo": "NOMBRE_PROPIO",
-                "categoria": "ciudad"
-            },
-            "fbi": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "bosque": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "santa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "asuntos": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "copa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "papa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "richard": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "will": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "robert": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "eddie": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ryan": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ahi": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "to": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "daniel": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "and": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jake": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "bobby": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "martin": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "borracho": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "nacional": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "amy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "inglaterra": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "francia": {
-                "tipo": "NOMBRE_PROPIO",
-                "categoria": "país"
-            },
-            "piedra": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "pon": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "gratis": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "llámame": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "juegos": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "brian": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "anna": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kevin": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "eric": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kate": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "costa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jerry": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ángel": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "tv": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "washington": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "it": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "scott": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "pete": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "mami": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "guapo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "valiente": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "walter": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "premio": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "tribunal": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "l": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "instituto": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "larry": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "sheriff": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jeff": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "internet": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "techo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ciencia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jason": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "rosa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "of": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kelly": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "europa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "dave": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kim": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ted": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "california": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "new": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "laura": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "carl": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "despues": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "carter": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "comunidad": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "grace": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "claire": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "perdóname": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "chicago": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ed": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "emma": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "reino": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "cola": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "smith": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "roger": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "castillo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "luke": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "whisky": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "simon": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "josh": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jenny": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "joey": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "gary": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "phil": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "alemania": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "bruja": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "morgan": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lobo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "pizza": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jackson": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "marina": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lucy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "chuck": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "arthur": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "karen": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "maggie": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "palacio": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "zorra": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "sara": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "méxico": {
-                "tipo": "NOMBRE_PROPIO",
-                "categoria": "país"
-            },
-            "criatura": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jackie": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "louis": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "donna": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "cruz": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "howard": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "helen": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lily": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "virgen": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "madame": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "francisco": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "miss": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "park": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "junta": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "abby": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "audiencia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "océano": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "king": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "patrick": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "comité": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "conde": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "johnson": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "hollywood": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "italia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "brown": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "greg": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "tele": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "conferencia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "barry": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "tio": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "roy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ross": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "vincent": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "robin": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "dylan": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "juan": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "mac": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "that": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "texas": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "parker": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "city": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "wilson": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "betty": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jamie": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "biblia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "cooper": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jean": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "áfrica": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ios": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "vaca": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "sincero": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "médica": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "unión": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "japón": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "katie": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jay": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "oliver": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "dick": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "monsieur": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "rusia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "boston": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "plaza": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lewis": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "paraíso": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "rebecca": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kenny": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ensayo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "russell": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "man": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "miller": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "palo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "nate": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "davis": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "nací": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "frankie": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "wayne": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "albert": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "brad": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "blake": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "miami": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "randy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "vince": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "beth": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "león": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ian": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "harvey": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "margaret": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "edward": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "españa": {
-                "tipo": "NOMBRE_PROPIO",
-                "categoria": "país"
-            },
-            "elena": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "guitarra": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jessica": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "máscara": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "caridad": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "coraje": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ann": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "alli": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "florida": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "is": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jersey": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "todd": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "olivia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lou": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "joseph": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "nancy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "marshall": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "oscar": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "queria": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "michelle": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "brandon": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "yeah": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "mickey": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "west": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "martha": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "teddy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "paris": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "keith": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "pozo": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "steven": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "sue": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jess": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "alianza": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jacob": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "gus": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "pedro": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "comisión": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "antonio": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "owen": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ruth": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "virginia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "walker": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "angela": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "rob": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ali": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lane": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "harold": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ken": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "williams": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "willie": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "all": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jennifer": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "gibbs": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "academia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "hill": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "malcolm": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "white": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "berlín": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "stanley": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "romance": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "matthew": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "shane": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "quizas": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "alicia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ashley": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "zoe": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "travis": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "estrés": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lincoln": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "congreso": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "neil": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "for": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "audrey": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "diane": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "your": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "liam": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "mason": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kitty": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "what": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "janet": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "sammy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "vietnam": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "karl": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "wendy": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "todavia": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "césar": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "gabriel": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kong": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "joan": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "von": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "riley": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "arco": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "maria": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "bla": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "josé": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "batman": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ford": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "exposición": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "lauren": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "villa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kent": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "jenna": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "kurt": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "mel": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "mona": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "escuadrón": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "leonard": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "moscú": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "barney": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "diego": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "canadá": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "craig": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "harper": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "ralph": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "mitchell": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "nelson": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "julian": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "trauma": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "adrian": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "alfa": {
-                "tipo": "NOMBRE_PROPIO"
-            },
-            "eli": {
-                "tipo": "NOMBRE_PROPIO"
+                "genero": "masculino"
             }
         },
         "adverbios": {
