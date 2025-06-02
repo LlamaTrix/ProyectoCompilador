@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request, jsonify
 from lexico import lexico, lexer
 from sintactico import parser
