@@ -1,10 +1,24 @@
+import json
 from lexico import lexico
+
+try:
+    with open('semantico.json', 'r', encoding='utf-8') as f:
+        semantico = json.load(f)
+    print("Diccionario cargado correctamente")
+except Exception as e:
+    print(f"Error al cargar lexico.json: {str(e)}")
+    semantico = {'phrases': {}}  # Diccionario vacío como fallback
+
+
+
 class AnalizadorSemantico:
-    def __init__(self, lexico):
+    def __init__(self, lexico, semantico, oracion, oracionTokens):
         self.errores = []
         self.genero = []
         self.lexico = lexico['palabras']
-        self.oracion = {"pronombres": "nosotros", "determinantes": "la", "nombres_propios": "pizza"}
+        self.semantico = semantico['phrases']
+        self.oracionTokens = oracionTokens
+        self.oracion = oracion
        
 
     def semanticValidation(self):
@@ -14,7 +28,7 @@ class AnalizadorSemantico:
         tiempo = []
         gender = []
 
-        for key, value in self.oracion.items():
+        for key, value in self.oracionTokens.items():
             datos = self.lexico[key][value]
             print(datos)
 
@@ -81,10 +95,21 @@ class AnalizadorSemantico:
         if errorType:
             return errorType
 
-    
-            
-                  
+    def femaleTranslation(self):
+        try:
+            with open('semantico.json', 'r', encoding='utf-8') as f:
+                semantico = json.load(f)
+            print("Diccionario cargado correctamente")
+        except Exception as e:
+            print(f"Error al cargar semantico.json: {str(e)}")
+            semantico = {'phrases': {}}  # Diccionario vacío como fallback
 
-    
-anlz = AnalizadorSemantico(lexico)
-print(anlz.semanticValidation())
+        for key, values in self.semantico.items():
+            if self.oracion == key:
+                val = values.get("significado")
+                print(f"La frase: {self.oracion} realmente significa: {val}")
+        
+
+
+     
+anlz = AnalizadorSemantico(lexico, semantico, oracion, oracionTokens)
