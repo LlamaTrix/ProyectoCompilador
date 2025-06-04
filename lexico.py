@@ -6,7 +6,7 @@ class Lexico:
         self.palabras = self.cargar_diccionario()
         self.tokens = (
             'DETERMINANTE', 'SUSTANTIVO', 'VERBO', 'ADJETIVO', 'CONJUNCION',
-            'PRONOMBRE', 'NOMBRE_PROPIO', 'ADVERBIO', 'PREPOSICION', 'NEGACION'
+            'PRONOMBRE', 'NOMBRE_PROPIO', 'ADVERBIO', 'PREPOSICION', 'NEGACION', 'NUMERO'
         )
         self.lexer = lex.lex(module=self)
         self.errores = []
@@ -36,6 +36,10 @@ class Lexico:
     def t_NEGACION(self, t):
         r'\bno\b'
         t.value = t.value.lower()
+        return t
+    
+    def t_NUMERO(self, t):
+        r'\d+'
         return t
 
     def t_ID(self, t):

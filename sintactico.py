@@ -10,6 +10,7 @@ def p_oracion(p):
                | sujeto predicado
                | sujeto
                | predicado
+               | predicado pronombre
                | adverbio
                | sustantivo
                | adjetivo
@@ -17,6 +18,7 @@ def p_oracion(p):
                | oracion_subordinada
                | comparacion
                | comparacion conjuncion sintagma_nominal
+               | numero
                '''
     if len(p) == 4:
         p[0] = ('ORACION', p[1], p[2], p[3])
@@ -44,7 +46,9 @@ def p_sintagma_nominal(p):
                         | pronombre sustantivo
                         | pronombre
                         | sustantivo
-                        | nombre_propio'''
+                        | nombre_propio
+                        | conjuncion pronombre pronombre
+                        | numero sustantivo'''
     if len(p) == 3:
         p[0] = ('SINTAGMA_NOMINAL', p[1], p[2])
     elif len(p) == 4:
@@ -128,6 +132,7 @@ def p_complemento_simple(p):
                        | adjetivo
                        | conjuncion
                        | conjuncion sintagma_nominal
+                       | numero
     '''
     p[0] = ('COMPLEMENTO_SIMPLE', p[1])
 
@@ -179,6 +184,10 @@ def p_nombre_propio(p):
 def p_adverbio(p):
     'adverbio : ADVERBIO'
     p[0] = ('ADVERBIO', p[1])
+
+def p_numero(p):
+    'numero : NUMERO'
+    p[0] = ('NUMERO', p[1])
 
 def p_conjuncion(p):
     'conjuncion : CONJUNCION'

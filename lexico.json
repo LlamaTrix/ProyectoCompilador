@@ -188,6 +188,11 @@
                 "genero": "masculino",
                 "numero": "singular"
             },
+            "voz": {
+                "tipo": "VERBO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
             "espacio": {
                 "tipo": "SUSTANTIVO",
                 "genero": "masculino",
@@ -293,6 +298,11 @@
                 "genero": "femenino",
                 "numero": "singular"
             },
+            "sonrisa": {
+                "tipo": "VERBO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
             "personal": {
                 "tipo": "SUSTANTIVO",
                 "genero": "común",
@@ -367,6 +377,26 @@
                 "tipo": "SUSTANTIVO",
                 "genero": "masculino",
                 "numero": "singular"
+            },
+            "chico": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "chica": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "chicos": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "plural"
+            },
+            "chicas": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "plural"
             },
             "niña": {
                 "tipo": "SUSTANTIVO",
@@ -886,6 +916,30 @@
                 "persona": "primera",
                 "numero": "singular"
             },
+            "veo": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "ves": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "ve": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "tercera",
+                "numero": "singular"
+            },
+            "vemos": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "plural"
+            },
             "amo": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -1012,6 +1066,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
+            "estás": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda",
+                "numero": "singular"
+            },
             "juego": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -1104,6 +1164,12 @@
                 "persona": "tercera",
                 "numero": "singular"
             },
+            "escuchando": {
+                "tipo": "VERBO",
+                "tiempo": "condicional",
+                "persona": "segunda",
+                "numero": "singular"
+            },
             "sos": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -1123,6 +1189,12 @@
             "haz": {
                 "tipo": "VERBO",
                 "tiempo": "imperativo",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "haces": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
                 "persona": "segunda",
                 "numero": "singular"
             },
@@ -1160,6 +1232,48 @@
                 "tipo": "VERBO",
                 "tiempo": "presente",
                 "persona": "segunda",
+                "numero": "singular"
+            },
+            "pienses": {
+                "tipo": "VERBO",
+                "tiempo": "subjuntivo",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "pienso": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "huelo": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "hueles": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "extraño": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "extrañas": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "extraña": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "tercera",
                 "numero": "singular"
             },
             "tienes": {
@@ -1224,6 +1338,12 @@
                 "persona": "segunda",
                 "numero": "singular"
             },
+            "da": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
             "preocupes": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -1266,7 +1386,15 @@
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
+            "odio": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
             "reír": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "decir": {
                 "tipo": "VERBO",
                 "tiempo": "infinitivo"
             },
@@ -1416,6 +1544,26 @@
                 "tipo": "ADJETIVO",
                 "genero": "femenino",
                 "numero": "singular"
+            },
+            "igual": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "iguales": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "plural"
+            },
+            "diferente": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "diferentes": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "plural"
             },
             "bonita": {
                 "tipo": "ADJETIVO",
@@ -1745,6 +1893,9 @@
         },
         "adverbio": {
             "hoy": {
+                "tipo": "ADVERBIO"
+            },
+            "ayuda": {
                 "tipo": "ADVERBIO"
             },
             "nada": {
