@@ -1,71 +1,44 @@
 {
     "phrases": {
-        "No estoy enojada": {
-            "significado": "Estoy muy enojada"
-        },
-
-        "No tengo tiempo hoy": {
-            "significado": "Tengo mucho tiempo hoy pero no te quiero ver"
-        },
-
-        "No me gusta el chocolate": {
-            "significado": "Me encanta el chocolate"
-        },
-
-        "No quiero comer eso": {
-            "significado": "Quiero comer eso"
-        },
-
-        "No se que quiero comer": {
-            "significado": "No se que quiero comer pero no es eso que me ofreces"
-        },
-
-        "No me gusta el cine": {
-            "significado": "Me encanta el cine, pero no quiero ir contigo"
-        },
-
-        "No me gusta tu idea": {
-            "significado": "Me encanta tu idea, pero no quiero hacerla"
-        },
-
-        "No quiero ir a la fiesta": {
-            "significado": "Quiero ir a la fiesta, pero no contigo"
-        },
-
-        "No se": {
-            "significado": "Soy estetica y no quiero responderte ahora"
-        },
-
-        "Creo que podria ir manana": {
-            "significado": "No voy a poder"
-        },
-
-        "Me das chiste": {
-            "significado": "Sos solamente un amigo para mi"
-        },
-
-        "Esta bien": {
-            "significado": "No esta bien, pero no quiero discutir"
-        },
-
-        "Vas a usar esa ropa": {
-            "significado": "Anda cambiate"
-        }, 
-
-        "Crees que ella es mas bonita": {
-            "significado": "Crees que es mas bonita que yo?"
-        },
-
-        "Sos un buen amigo": {
-            "significado": "Nunca voy a ser tu novia"
-        },
-
-        "Voy a estar lista en 5 minutos": {
-            "significado": "Voy a estar lista en 30 minutos"
-        },
-
-        "Haz lo que quieras": {
-            "significado": "No podes hacer lo que quieras"
-        }
+        "no estoy enojada": "Estoy muy enojada",
+        "no tengo tiempo hoy": "No quiero verte hoy",
+        "no me gusta el chocolate": "Me encanta el chocolate",
+        "no quiero comer eso": "Quiero comer eso",
+        "no sé qué quiero comer": "No quiero lo que me ofreces",
+        "no me gusta el cine": "No quiero ir contigo al cine",
+        "no me gusta tu idea": "No quiero hacer lo que propones",
+        "no quiero ir a la fiesta": "No quiero ir contigo",
+        "no sé": "No quiero responderte",
+        "creo que podría ir mañana": "No voy a ir",
+        "me das chiste": "Solo eres un amigo",
+        "está bien": "No estoy de acuerdo",
+        "vas a usar esa ropa": "Cambiate de ropa",
+        "crees que ella es más bonita": "¿Crees que es más bonita que yo?",
+        "sos un buen amigo": "No seré tu novia",
+        "voy a estar lista en 5 minutos": "Voy a tardar mucho más",
+        "haz lo que quieras": "Me enojaré si lo haces",
+        "como quieras": "No me gusta tu decisión",
+        "no pasa nada": "Estoy molesta",
+        "si tú lo dices": "No estoy de acuerdo",
+        "estoy ocupada": "No quiero hablar contigo",
+        "no es nada personal": "Es totalmente personal",
+        "tal vez otro día": "Nunca va a pasar",
+        "no te preocupes": "Deberías preocuparte",
+        "solo estaba bromeando": "Lo decía en serio",
+        "no es para tanto": "Es un gran problema",
+        "haz caso": "No me ignores",
+        "no me importa": "Me importa mucho",
+        "tú sabrás": "Mejor haz lo que yo digo",
+        "no es el momento": "No quiero hablar de esto",
+        "todo está bien": "Nada está bien",
+        "no es lo que parece": "Es exactamente lo que parece",
+        "solo dime la verdad": "Prefiero no saberla",
+        "no estoy celosa": "Estoy celosa",
+        "no me interesa": "Estoy muy interesada",
+        "tú primero": "No quiero hacerlo",
+        "no es mi problema": "Es totalmente mi problema",
+        "solo preguntaba": "Quiero una respuesta",
+        "no te enojes": "Deberías disculparte",
+        "no es gran cosa": "Es muy importante"
     }
 }

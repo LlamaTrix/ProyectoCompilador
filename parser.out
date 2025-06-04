@@ -1,102 +1,162 @@
 Created by PLY version 3.11 (http://www.dabeaz.com/ply)
 
-Unused terminals:
-
-    ERROR
-
 Grammar
 
 Rule 0     S' -> oracion
-Rule 1     oracion -> sujeto predicado
-Rule 2     oracion -> sujeto
-Rule 3     oracion -> predicado
-Rule 4     sujeto -> sintagma_nominal
-Rule 5     sintagma_nominal -> determinante sustantivo
-Rule 6     sintagma_nominal -> determinante sustantivo adjetivo
-Rule 7     sintagma_nominal -> pronombre
-Rule 8     sintagma_nominal -> nombre_propio
-Rule 9     predicado -> verbo
-Rule 10    predicado -> verbo complemento_directo
-Rule 11    predicado -> verbo complemento_directo complemento_indirecto
-Rule 12    predicado -> verbo complemento_directo adverbio
-Rule 13    predicado -> verbo complemento_indirecto
-Rule 14    predicado -> verbo adverbio
-Rule 15    complemento_directo -> sintagma_nominal
-Rule 16    complemento_indirecto -> PREPOSICION_A sintagma_nominal
-Rule 17    determinante -> DETERMINANTE
-Rule 18    sustantivo -> SUSTANTIVO
-Rule 19    verbo -> VERBO
-Rule 20    adjetivo -> ADJETIVO
-Rule 21    pronombre -> PRONOMBRE
-Rule 22    nombre_propio -> NOMBRE_PROPIO
-Rule 23    adverbio -> ADVERBIO
+Rule 1     oracion -> adverbio oracion
+Rule 2     oracion -> sujeto predicado
+Rule 3     oracion -> sujeto
+Rule 4     oracion -> predicado
+Rule 5     oracion -> negacion oracion
+Rule 6     oracion -> oracion_subordinada
+Rule 7     sujeto -> sintagma_nominal
+Rule 8     sintagma_nominal -> determinante sustantivo
+Rule 9     sintagma_nominal -> determinante sustantivo adjetivo
+Rule 10    sintagma_nominal -> determinante adjetivo sustantivo
+Rule 11    sintagma_nominal -> determinante
+Rule 12    sintagma_nominal -> pronombre
+Rule 13    sintagma_nominal -> nombre_propio
+Rule 14    predicado -> nucleo_predicado
+Rule 15    predicado -> nucleo_predicado complemento
+Rule 16    predicado -> negacion nucleo_predicado
+Rule 17    predicado -> negacion nucleo_predicado complemento
+Rule 18    predicado -> negacion verbo verbo complemento
+Rule 19    predicado -> complemento_indirecto nucleo_predicado
+Rule 20    predicado -> complemento_indirecto nucleo_predicado complemento
+Rule 21    predicado -> nucleo_predicado conjuncion oracion
+Rule 22    predicado -> adverbio
+Rule 23    nucleo_predicado -> verbo
+Rule 24    nucleo_predicado -> verbo nucleo_predicado
+Rule 25    oracion_subordinada -> verbo conjuncion pronombre verbo
+Rule 26    oracion_subordinada -> verbo conjuncion oracion
+Rule 27    oracion_subordinada -> verbo conjuncion predicado
+Rule 28    oracion_subordinada -> verbo conjuncion
+Rule 29    complemento -> complemento_simple
+Rule 30    complemento -> complemento complemento_simple
+Rule 31    complemento -> nucleo_predicado
+Rule 32    complemento_simple -> complemento_directo
+Rule 33    complemento_simple -> complemento_indirecto
+Rule 34    complemento_simple -> adverbio
+Rule 35    complemento_simple -> adjetivo
+Rule 36    complemento_simple -> conjuncion
+Rule 37    negacion -> NEGACION
+Rule 38    complemento_directo -> sintagma_nominal
+Rule 39    complemento_indirecto -> preposicion sintagma_nominal
+Rule 40    complemento_indirecto -> preposicion complemento_directo
+Rule 41    complemento_indirecto -> pronombre
+Rule 42    preposicion -> PREPOSICION
+Rule 43    determinante -> DETERMINANTE
+Rule 44    sustantivo -> SUSTANTIVO
+Rule 45    verbo -> VERBO
+Rule 46    adjetivo -> ADJETIVO
+Rule 47    pronombre -> PRONOMBRE
+Rule 48    nombre_propio -> NOMBRE_PROPIO
+Rule 49    adverbio -> ADVERBIO
+Rule 50    conjuncion -> CONJUNCION
 
 Terminals, with rules where they appear
 
-ADJETIVO             : 20
-ADVERBIO             : 23
-DETERMINANTE         : 17
-ERROR                : 
-NOMBRE_PROPIO        : 22
-PREPOSICION_A        : 16
-PRONOMBRE            : 21
-SUSTANTIVO           : 18
-VERBO                : 19
+ADJETIVO             : 46
+ADVERBIO             : 49
+CONJUNCION           : 50
+DETERMINANTE         : 43
+NEGACION             : 37
+NOMBRE_PROPIO        : 48
+PREPOSICION          : 42
+PRONOMBRE            : 47
+SUSTANTIVO           : 44
+VERBO                : 45
 error                : 
 
 Nonterminals, with rules where they appear
 
-adjetivo             : 6
-adverbio             : 12 14
-complemento_directo  : 10 11 12
-complemento_indirecto : 11 13
-determinante         : 5 6
-nombre_propio        : 8
-oracion              : 0
-predicado            : 1 3
-pronombre            : 7
-sintagma_nominal     : 4 15 16
-sujeto               : 1 2
-sustantivo           : 5 6
-verbo                : 9 10 11 12 13 14
+adjetivo             : 9 10 35
+adverbio             : 1 22 34
+complemento          : 15 17 18 20 30
+complemento_directo  : 32 40
+complemento_indirecto : 19 20 33
+complemento_simple   : 29 30
+conjuncion           : 21 25 26 27 28 36
+determinante         : 8 9 10 11
+negacion             : 5 16 17 18
+nombre_propio        : 13
+nucleo_predicado     : 14 15 16 17 19 20 21 24 31
+oracion              : 1 5 21 26 0
+oracion_subordinada  : 6
+predicado            : 2 4 27
+preposicion          : 39 40
+pronombre            : 12 25 41
+sintagma_nominal     : 7 38 39
+sujeto               : 2 3
+sustantivo           : 8 9 10
+verbo                : 18 18 23 24 25 25 26 27 28
 
 Parsing method: LALR
 
 state 0
 
     (0) S' -> . oracion
-    (1) oracion -> . sujeto predicado
-    (2) oracion -> . sujeto
-    (3) oracion -> . predicado
-    (4) sujeto -> . sintagma_nominal
-    (9) predicado -> . verbo
-    (10) predicado -> . verbo complemento_directo
-    (11) predicado -> . verbo complemento_directo complemento_indirecto
-    (12) predicado -> . verbo complemento_directo adverbio
-    (13) predicado -> . verbo complemento_indirecto
-    (14) predicado -> . verbo adverbio
-    (5) sintagma_nominal -> . determinante sustantivo
-    (6) sintagma_nominal -> . determinante sustantivo adjetivo
-    (7) sintagma_nominal -> . pronombre
-    (8) sintagma_nominal -> . nombre_propio
-    (19) verbo -> . VERBO
-    (17) determinante -> . DETERMINANTE
-    (21) pronombre -> . PRONOMBRE
-    (22) nombre_propio -> . NOMBRE_PROPIO
+    (1) oracion -> . adverbio oracion
+    (2) oracion -> . sujeto predicado
+    (3) oracion -> . sujeto
+    (4) oracion -> . predicado
+    (5) oracion -> . negacion oracion
+    (6) oracion -> . oracion_subordinada
+    (49) adverbio -> . ADVERBIO
+    (7) sujeto -> . sintagma_nominal
+    (14) predicado -> . nucleo_predicado
+    (15) predicado -> . nucleo_predicado complemento
+    (16) predicado -> . negacion nucleo_predicado
+    (17) predicado -> . negacion nucleo_predicado complemento
+    (18) predicado -> . negacion verbo verbo complemento
+    (19) predicado -> . complemento_indirecto nucleo_predicado
+    (20) predicado -> . complemento_indirecto nucleo_predicado complemento
+    (21) predicado -> . nucleo_predicado conjuncion oracion
+    (22) predicado -> . adverbio
+    (37) negacion -> . NEGACION
+    (25) oracion_subordinada -> . verbo conjuncion pronombre verbo
+    (26) oracion_subordinada -> . verbo conjuncion oracion
+    (27) oracion_subordinada -> . verbo conjuncion predicado
+    (28) oracion_subordinada -> . verbo conjuncion
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (45) verbo -> . VERBO
+    (43) determinante -> . DETERMINANTE
+    (47) pronombre -> . PRONOMBRE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+    (42) preposicion -> . PREPOSICION
 
-    VERBO           shift and go to state 9
-    DETERMINANTE    shift and go to state 10
-    PRONOMBRE       shift and go to state 11
-    NOMBRE_PROPIO   shift and go to state 12
+    ADVERBIO        shift and go to state 7
+    NEGACION        shift and go to state 12
+    VERBO           shift and go to state 17
+    DETERMINANTE    shift and go to state 18
+    PRONOMBRE       shift and go to state 19
+    NOMBRE_PROPIO   shift and go to state 20
+    PREPOSICION     shift and go to state 21
 
     oracion                        shift and go to state 1
-    sujeto                         shift and go to state 2
-    predicado                      shift and go to state 3
-    sintagma_nominal               shift and go to state 4
-    verbo                          shift and go to state 5
-    determinante                   shift and go to state 6
-    pronombre                      shift and go to state 7
-    nombre_propio                  shift and go to state 8
+    adverbio                       shift and go to state 2
+    sujeto                         shift and go to state 3
+    predicado                      shift and go to state 4
+    negacion                       shift and go to state 5
+    oracion_subordinada            shift and go to state 6
+    sintagma_nominal               shift and go to state 8
+    nucleo_predicado               shift and go to state 9
+    verbo                          shift and go to state 10
+    complemento_indirecto          shift and go to state 11
+    pronombre                      shift and go to state 13
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+    preposicion                    shift and go to state 16
 
 state 1
 
@@ -106,274 +166,1750 @@ state 1
 
 state 2
 
-    (1) oracion -> sujeto . predicado
-    (2) oracion -> sujeto .
-    (9) predicado -> . verbo
-    (10) predicado -> . verbo complemento_directo
-    (11) predicado -> . verbo complemento_directo complemento_indirecto
-    (12) predicado -> . verbo complemento_directo adverbio
-    (13) predicado -> . verbo complemento_indirecto
-    (14) predicado -> . verbo adverbio
-    (19) verbo -> . VERBO
+    (1) oracion -> adverbio . oracion
+    (22) predicado -> adverbio .
+    (1) oracion -> . adverbio oracion
+    (2) oracion -> . sujeto predicado
+    (3) oracion -> . sujeto
+    (4) oracion -> . predicado
+    (5) oracion -> . negacion oracion
+    (6) oracion -> . oracion_subordinada
+    (49) adverbio -> . ADVERBIO
+    (7) sujeto -> . sintagma_nominal
+    (14) predicado -> . nucleo_predicado
+    (15) predicado -> . nucleo_predicado complemento
+    (16) predicado -> . negacion nucleo_predicado
+    (17) predicado -> . negacion nucleo_predicado complemento
+    (18) predicado -> . negacion verbo verbo complemento
+    (19) predicado -> . complemento_indirecto nucleo_predicado
+    (20) predicado -> . complemento_indirecto nucleo_predicado complemento
+    (21) predicado -> . nucleo_predicado conjuncion oracion
+    (22) predicado -> . adverbio
+    (37) negacion -> . NEGACION
+    (25) oracion_subordinada -> . verbo conjuncion pronombre verbo
+    (26) oracion_subordinada -> . verbo conjuncion oracion
+    (27) oracion_subordinada -> . verbo conjuncion predicado
+    (28) oracion_subordinada -> . verbo conjuncion
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (45) verbo -> . VERBO
+    (43) determinante -> . DETERMINANTE
+    (47) pronombre -> . PRONOMBRE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+    (42) preposicion -> . PREPOSICION
 
-    $end            reduce using rule 2 (oracion -> sujeto .)
-    VERBO           shift and go to state 9
+    $end            reduce using rule 22 (predicado -> adverbio .)
+    ADVERBIO        shift and go to state 7
+    NEGACION        shift and go to state 12
+    VERBO           shift and go to state 17
+    DETERMINANTE    shift and go to state 18
+    PRONOMBRE       shift and go to state 19
+    NOMBRE_PROPIO   shift and go to state 20
+    PREPOSICION     shift and go to state 21
 
-    predicado                      shift and go to state 13
-    verbo                          shift and go to state 5
+    adverbio                       shift and go to state 2
+    oracion                        shift and go to state 22
+    sujeto                         shift and go to state 3
+    predicado                      shift and go to state 4
+    negacion                       shift and go to state 5
+    oracion_subordinada            shift and go to state 6
+    sintagma_nominal               shift and go to state 8
+    nucleo_predicado               shift and go to state 9
+    verbo                          shift and go to state 10
+    complemento_indirecto          shift and go to state 11
+    pronombre                      shift and go to state 13
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+    preposicion                    shift and go to state 16
 
 state 3
 
-    (3) oracion -> predicado .
+    (2) oracion -> sujeto . predicado
+    (3) oracion -> sujeto .
+    (14) predicado -> . nucleo_predicado
+    (15) predicado -> . nucleo_predicado complemento
+    (16) predicado -> . negacion nucleo_predicado
+    (17) predicado -> . negacion nucleo_predicado complemento
+    (18) predicado -> . negacion verbo verbo complemento
+    (19) predicado -> . complemento_indirecto nucleo_predicado
+    (20) predicado -> . complemento_indirecto nucleo_predicado complemento
+    (21) predicado -> . nucleo_predicado conjuncion oracion
+    (22) predicado -> . adverbio
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (37) negacion -> . NEGACION
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (45) verbo -> . VERBO
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
 
-    $end            reduce using rule 3 (oracion -> predicado .)
+    $end            reduce using rule 3 (oracion -> sujeto .)
+    NEGACION        shift and go to state 12
+    ADVERBIO        shift and go to state 7
+    VERBO           shift and go to state 17
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
 
+    predicado                      shift and go to state 23
+    nucleo_predicado               shift and go to state 9
+    negacion                       shift and go to state 24
+    verbo                          shift and go to state 25
+    complemento_indirecto          shift and go to state 11
+    adverbio                       shift and go to state 26
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 27
 
 state 4
 
-    (4) sujeto -> sintagma_nominal .
+    (4) oracion -> predicado .
 
-    VERBO           reduce using rule 4 (sujeto -> sintagma_nominal .)
-    $end            reduce using rule 4 (sujeto -> sintagma_nominal .)
+    $end            reduce using rule 4 (oracion -> predicado .)
 
 
 state 5
 
-    (9) predicado -> verbo .
-    (10) predicado -> verbo . complemento_directo
-    (11) predicado -> verbo . complemento_directo complemento_indirecto
-    (12) predicado -> verbo . complemento_directo adverbio
-    (13) predicado -> verbo . complemento_indirecto
-    (14) predicado -> verbo . adverbio
-    (15) complemento_directo -> . sintagma_nominal
-    (16) complemento_indirecto -> . PREPOSICION_A sintagma_nominal
-    (23) adverbio -> . ADVERBIO
-    (5) sintagma_nominal -> . determinante sustantivo
-    (6) sintagma_nominal -> . determinante sustantivo adjetivo
-    (7) sintagma_nominal -> . pronombre
-    (8) sintagma_nominal -> . nombre_propio
-    (17) determinante -> . DETERMINANTE
-    (21) pronombre -> . PRONOMBRE
-    (22) nombre_propio -> . NOMBRE_PROPIO
+    (5) oracion -> negacion . oracion
+    (16) predicado -> negacion . nucleo_predicado
+    (17) predicado -> negacion . nucleo_predicado complemento
+    (18) predicado -> negacion . verbo verbo complemento
+    (1) oracion -> . adverbio oracion
+    (2) oracion -> . sujeto predicado
+    (3) oracion -> . sujeto
+    (4) oracion -> . predicado
+    (5) oracion -> . negacion oracion
+    (6) oracion -> . oracion_subordinada
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (45) verbo -> . VERBO
+    (49) adverbio -> . ADVERBIO
+    (7) sujeto -> . sintagma_nominal
+    (14) predicado -> . nucleo_predicado
+    (15) predicado -> . nucleo_predicado complemento
+    (16) predicado -> . negacion nucleo_predicado
+    (17) predicado -> . negacion nucleo_predicado complemento
+    (18) predicado -> . negacion verbo verbo complemento
+    (19) predicado -> . complemento_indirecto nucleo_predicado
+    (20) predicado -> . complemento_indirecto nucleo_predicado complemento
+    (21) predicado -> . nucleo_predicado conjuncion oracion
+    (22) predicado -> . adverbio
+    (37) negacion -> . NEGACION
+    (25) oracion_subordinada -> . verbo conjuncion pronombre verbo
+    (26) oracion_subordinada -> . verbo conjuncion oracion
+    (27) oracion_subordinada -> . verbo conjuncion predicado
+    (28) oracion_subordinada -> . verbo conjuncion
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (43) determinante -> . DETERMINANTE
+    (47) pronombre -> . PRONOMBRE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+    (42) preposicion -> . PREPOSICION
 
-    $end            reduce using rule 9 (predicado -> verbo .)
-    PREPOSICION_A   shift and go to state 18
-    ADVERBIO        shift and go to state 19
-    DETERMINANTE    shift and go to state 10
-    PRONOMBRE       shift and go to state 11
-    NOMBRE_PROPIO   shift and go to state 12
+    VERBO           shift and go to state 17
+    ADVERBIO        shift and go to state 7
+    NEGACION        shift and go to state 12
+    DETERMINANTE    shift and go to state 18
+    PRONOMBRE       shift and go to state 19
+    NOMBRE_PROPIO   shift and go to state 20
+    PREPOSICION     shift and go to state 21
 
-    complemento_directo            shift and go to state 14
-    complemento_indirecto          shift and go to state 15
-    adverbio                       shift and go to state 16
-    sintagma_nominal               shift and go to state 17
-    determinante                   shift and go to state 6
-    pronombre                      shift and go to state 7
-    nombre_propio                  shift and go to state 8
+    negacion                       shift and go to state 5
+    oracion                        shift and go to state 28
+    nucleo_predicado               shift and go to state 29
+    verbo                          shift and go to state 30
+    adverbio                       shift and go to state 2
+    sujeto                         shift and go to state 3
+    predicado                      shift and go to state 4
+    oracion_subordinada            shift and go to state 6
+    sintagma_nominal               shift and go to state 8
+    complemento_indirecto          shift and go to state 11
+    pronombre                      shift and go to state 13
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+    preposicion                    shift and go to state 16
 
 state 6
 
-    (5) sintagma_nominal -> determinante . sustantivo
-    (6) sintagma_nominal -> determinante . sustantivo adjetivo
-    (18) sustantivo -> . SUSTANTIVO
+    (6) oracion -> oracion_subordinada .
 
-    SUSTANTIVO      shift and go to state 21
+    $end            reduce using rule 6 (oracion -> oracion_subordinada .)
 
-    sustantivo                     shift and go to state 20
 
 state 7
 
-    (7) sintagma_nominal -> pronombre .
+    (49) adverbio -> ADVERBIO .
 
-    VERBO           reduce using rule 7 (sintagma_nominal -> pronombre .)
-    $end            reduce using rule 7 (sintagma_nominal -> pronombre .)
-    PREPOSICION_A   reduce using rule 7 (sintagma_nominal -> pronombre .)
-    ADVERBIO        reduce using rule 7 (sintagma_nominal -> pronombre .)
+    ADVERBIO        reduce using rule 49 (adverbio -> ADVERBIO .)
+    NEGACION        reduce using rule 49 (adverbio -> ADVERBIO .)
+    VERBO           reduce using rule 49 (adverbio -> ADVERBIO .)
+    DETERMINANTE    reduce using rule 49 (adverbio -> ADVERBIO .)
+    PRONOMBRE       reduce using rule 49 (adverbio -> ADVERBIO .)
+    NOMBRE_PROPIO   reduce using rule 49 (adverbio -> ADVERBIO .)
+    PREPOSICION     reduce using rule 49 (adverbio -> ADVERBIO .)
+    $end            reduce using rule 49 (adverbio -> ADVERBIO .)
+    ADJETIVO        reduce using rule 49 (adverbio -> ADVERBIO .)
+    CONJUNCION      reduce using rule 49 (adverbio -> ADVERBIO .)
 
 
 state 8
 
-    (8) sintagma_nominal -> nombre_propio .
+    (7) sujeto -> sintagma_nominal .
 
-    VERBO           reduce using rule 8 (sintagma_nominal -> nombre_propio .)
-    $end            reduce using rule 8 (sintagma_nominal -> nombre_propio .)
-    PREPOSICION_A   reduce using rule 8 (sintagma_nominal -> nombre_propio .)
-    ADVERBIO        reduce using rule 8 (sintagma_nominal -> nombre_propio .)
+    NEGACION        reduce using rule 7 (sujeto -> sintagma_nominal .)
+    ADVERBIO        reduce using rule 7 (sujeto -> sintagma_nominal .)
+    VERBO           reduce using rule 7 (sujeto -> sintagma_nominal .)
+    PREPOSICION     reduce using rule 7 (sujeto -> sintagma_nominal .)
+    PRONOMBRE       reduce using rule 7 (sujeto -> sintagma_nominal .)
+    $end            reduce using rule 7 (sujeto -> sintagma_nominal .)
 
 
 state 9
 
-    (19) verbo -> VERBO .
+    (14) predicado -> nucleo_predicado .
+    (15) predicado -> nucleo_predicado . complemento
+    (21) predicado -> nucleo_predicado . conjuncion oracion
+    (29) complemento -> . complemento_simple
+    (30) complemento -> . complemento complemento_simple
+    (31) complemento -> . nucleo_predicado
+    (50) conjuncion -> . CONJUNCION
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (45) verbo -> . VERBO
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
 
-    PREPOSICION_A   reduce using rule 19 (verbo -> VERBO .)
-    ADVERBIO        reduce using rule 19 (verbo -> VERBO .)
-    DETERMINANTE    reduce using rule 19 (verbo -> VERBO .)
-    PRONOMBRE       reduce using rule 19 (verbo -> VERBO .)
-    NOMBRE_PROPIO   reduce using rule 19 (verbo -> VERBO .)
-    $end            reduce using rule 19 (verbo -> VERBO .)
+    $end            reduce using rule 14 (predicado -> nucleo_predicado .)
+    CONJUNCION      shift and go to state 35
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    VERBO           shift and go to state 17
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
 
+    nucleo_predicado               shift and go to state 31
+    complemento                    shift and go to state 32
+    conjuncion                     shift and go to state 33
+    complemento_simple             shift and go to state 34
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    verbo                          shift and go to state 25
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
 
 state 10
 
-    (17) determinante -> DETERMINANTE .
+    (25) oracion_subordinada -> verbo . conjuncion pronombre verbo
+    (26) oracion_subordinada -> verbo . conjuncion oracion
+    (27) oracion_subordinada -> verbo . conjuncion predicado
+    (28) oracion_subordinada -> verbo . conjuncion
+    (23) nucleo_predicado -> verbo .
+    (24) nucleo_predicado -> verbo . nucleo_predicado
+    (50) conjuncion -> . CONJUNCION
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (45) verbo -> . VERBO
 
-    SUSTANTIVO      reduce using rule 17 (determinante -> DETERMINANTE .)
+  ! shift/reduce conflict for CONJUNCION resolved as shift
+  ! shift/reduce conflict for VERBO resolved as shift
+    ADVERBIO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    ADJETIVO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    PREPOSICION     reduce using rule 23 (nucleo_predicado -> verbo .)
+    PRONOMBRE       reduce using rule 23 (nucleo_predicado -> verbo .)
+    DETERMINANTE    reduce using rule 23 (nucleo_predicado -> verbo .)
+    NOMBRE_PROPIO   reduce using rule 23 (nucleo_predicado -> verbo .)
+    $end            reduce using rule 23 (nucleo_predicado -> verbo .)
+    CONJUNCION      shift and go to state 35
+    VERBO           shift and go to state 17
 
+  ! CONJUNCION      [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! VERBO           [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+
+    verbo                          shift and go to state 25
+    conjuncion                     shift and go to state 43
+    nucleo_predicado               shift and go to state 44
 
 state 11
 
-    (21) pronombre -> PRONOMBRE .
+    (19) predicado -> complemento_indirecto . nucleo_predicado
+    (20) predicado -> complemento_indirecto . nucleo_predicado complemento
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (45) verbo -> . VERBO
 
-    VERBO           reduce using rule 21 (pronombre -> PRONOMBRE .)
-    $end            reduce using rule 21 (pronombre -> PRONOMBRE .)
-    PREPOSICION_A   reduce using rule 21 (pronombre -> PRONOMBRE .)
-    ADVERBIO        reduce using rule 21 (pronombre -> PRONOMBRE .)
+    VERBO           shift and go to state 17
 
+    nucleo_predicado               shift and go to state 45
+    verbo                          shift and go to state 25
 
 state 12
 
-    (22) nombre_propio -> NOMBRE_PROPIO .
+    (37) negacion -> NEGACION .
 
-    VERBO           reduce using rule 22 (nombre_propio -> NOMBRE_PROPIO .)
-    $end            reduce using rule 22 (nombre_propio -> NOMBRE_PROPIO .)
-    PREPOSICION_A   reduce using rule 22 (nombre_propio -> NOMBRE_PROPIO .)
-    ADVERBIO        reduce using rule 22 (nombre_propio -> NOMBRE_PROPIO .)
+    VERBO           reduce using rule 37 (negacion -> NEGACION .)
+    ADVERBIO        reduce using rule 37 (negacion -> NEGACION .)
+    NEGACION        reduce using rule 37 (negacion -> NEGACION .)
+    DETERMINANTE    reduce using rule 37 (negacion -> NEGACION .)
+    PRONOMBRE       reduce using rule 37 (negacion -> NEGACION .)
+    NOMBRE_PROPIO   reduce using rule 37 (negacion -> NEGACION .)
+    PREPOSICION     reduce using rule 37 (negacion -> NEGACION .)
 
 
 state 13
 
-    (1) oracion -> sujeto predicado .
+    (12) sintagma_nominal -> pronombre .
+    (41) complemento_indirecto -> pronombre .
 
-    $end            reduce using rule 1 (oracion -> sujeto predicado .)
+  ! reduce/reduce conflict for VERBO resolved using rule 12 (sintagma_nominal -> pronombre .)
+    NEGACION        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    ADVERBIO        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    VERBO           reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PREPOSICION     reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PRONOMBRE       reduce using rule 12 (sintagma_nominal -> pronombre .)
+    $end            reduce using rule 12 (sintagma_nominal -> pronombre .)
+
+  ! VERBO           [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
 
 
 state 14
 
-    (10) predicado -> verbo complemento_directo .
-    (11) predicado -> verbo complemento_directo . complemento_indirecto
-    (12) predicado -> verbo complemento_directo . adverbio
-    (16) complemento_indirecto -> . PREPOSICION_A sintagma_nominal
-    (23) adverbio -> . ADVERBIO
+    (8) sintagma_nominal -> determinante . sustantivo
+    (9) sintagma_nominal -> determinante . sustantivo adjetivo
+    (10) sintagma_nominal -> determinante . adjetivo sustantivo
+    (11) sintagma_nominal -> determinante .
+    (44) sustantivo -> . SUSTANTIVO
+    (46) adjetivo -> . ADJETIVO
 
-    $end            reduce using rule 10 (predicado -> verbo complemento_directo .)
-    PREPOSICION_A   shift and go to state 18
-    ADVERBIO        shift and go to state 19
+  ! shift/reduce conflict for ADJETIVO resolved as shift
+    NEGACION        reduce using rule 11 (sintagma_nominal -> determinante .)
+    ADVERBIO        reduce using rule 11 (sintagma_nominal -> determinante .)
+    VERBO           reduce using rule 11 (sintagma_nominal -> determinante .)
+    PREPOSICION     reduce using rule 11 (sintagma_nominal -> determinante .)
+    PRONOMBRE       reduce using rule 11 (sintagma_nominal -> determinante .)
+    $end            reduce using rule 11 (sintagma_nominal -> determinante .)
+    CONJUNCION      reduce using rule 11 (sintagma_nominal -> determinante .)
+    DETERMINANTE    reduce using rule 11 (sintagma_nominal -> determinante .)
+    NOMBRE_PROPIO   reduce using rule 11 (sintagma_nominal -> determinante .)
+    SUSTANTIVO      shift and go to state 48
+    ADJETIVO        shift and go to state 42
 
-    complemento_indirecto          shift and go to state 22
-    adverbio                       shift and go to state 23
+  ! ADJETIVO        [ reduce using rule 11 (sintagma_nominal -> determinante .) ]
+
+    sustantivo                     shift and go to state 46
+    adjetivo                       shift and go to state 47
 
 state 15
 
-    (13) predicado -> verbo complemento_indirecto .
+    (13) sintagma_nominal -> nombre_propio .
 
-    $end            reduce using rule 13 (predicado -> verbo complemento_indirecto .)
+    NEGACION        reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    ADVERBIO        reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    VERBO           reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    PREPOSICION     reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    PRONOMBRE       reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    $end            reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    ADJETIVO        reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    CONJUNCION      reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    DETERMINANTE    reduce using rule 13 (sintagma_nominal -> nombre_propio .)
+    NOMBRE_PROPIO   reduce using rule 13 (sintagma_nominal -> nombre_propio .)
 
 
 state 16
 
-    (14) predicado -> verbo adverbio .
+    (39) complemento_indirecto -> preposicion . sintagma_nominal
+    (40) complemento_indirecto -> preposicion . complemento_directo
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (38) complemento_directo -> . sintagma_nominal
+    (43) determinante -> . DETERMINANTE
+    (47) pronombre -> . PRONOMBRE
+    (48) nombre_propio -> . NOMBRE_PROPIO
 
-    $end            reduce using rule 14 (predicado -> verbo adverbio .)
+    DETERMINANTE    shift and go to state 18
+    PRONOMBRE       shift and go to state 19
+    NOMBRE_PROPIO   shift and go to state 20
 
+    sintagma_nominal               shift and go to state 49
+    complemento_directo            shift and go to state 50
+    determinante                   shift and go to state 14
+    pronombre                      shift and go to state 51
+    nombre_propio                  shift and go to state 15
 
 state 17
 
-    (15) complemento_directo -> sintagma_nominal .
+    (45) verbo -> VERBO .
 
-    PREPOSICION_A   reduce using rule 15 (complemento_directo -> sintagma_nominal .)
-    ADVERBIO        reduce using rule 15 (complemento_directo -> sintagma_nominal .)
-    $end            reduce using rule 15 (complemento_directo -> sintagma_nominal .)
+    CONJUNCION      reduce using rule 45 (verbo -> VERBO .)
+    VERBO           reduce using rule 45 (verbo -> VERBO .)
+    ADVERBIO        reduce using rule 45 (verbo -> VERBO .)
+    ADJETIVO        reduce using rule 45 (verbo -> VERBO .)
+    PREPOSICION     reduce using rule 45 (verbo -> VERBO .)
+    PRONOMBRE       reduce using rule 45 (verbo -> VERBO .)
+    DETERMINANTE    reduce using rule 45 (verbo -> VERBO .)
+    NOMBRE_PROPIO   reduce using rule 45 (verbo -> VERBO .)
+    $end            reduce using rule 45 (verbo -> VERBO .)
 
 
 state 18
 
-    (16) complemento_indirecto -> PREPOSICION_A . sintagma_nominal
-    (5) sintagma_nominal -> . determinante sustantivo
-    (6) sintagma_nominal -> . determinante sustantivo adjetivo
-    (7) sintagma_nominal -> . pronombre
-    (8) sintagma_nominal -> . nombre_propio
-    (17) determinante -> . DETERMINANTE
-    (21) pronombre -> . PRONOMBRE
-    (22) nombre_propio -> . NOMBRE_PROPIO
+    (43) determinante -> DETERMINANTE .
 
-    DETERMINANTE    shift and go to state 10
-    PRONOMBRE       shift and go to state 11
-    NOMBRE_PROPIO   shift and go to state 12
+    SUSTANTIVO      reduce using rule 43 (determinante -> DETERMINANTE .)
+    ADJETIVO        reduce using rule 43 (determinante -> DETERMINANTE .)
+    NEGACION        reduce using rule 43 (determinante -> DETERMINANTE .)
+    ADVERBIO        reduce using rule 43 (determinante -> DETERMINANTE .)
+    VERBO           reduce using rule 43 (determinante -> DETERMINANTE .)
+    PREPOSICION     reduce using rule 43 (determinante -> DETERMINANTE .)
+    PRONOMBRE       reduce using rule 43 (determinante -> DETERMINANTE .)
+    $end            reduce using rule 43 (determinante -> DETERMINANTE .)
+    CONJUNCION      reduce using rule 43 (determinante -> DETERMINANTE .)
+    DETERMINANTE    reduce using rule 43 (determinante -> DETERMINANTE .)
+    NOMBRE_PROPIO   reduce using rule 43 (determinante -> DETERMINANTE .)
 
-    sintagma_nominal               shift and go to state 24
-    determinante                   shift and go to state 6
-    pronombre                      shift and go to state 7
-    nombre_propio                  shift and go to state 8
 
 state 19
 
-    (23) adverbio -> ADVERBIO .
+    (47) pronombre -> PRONOMBRE .
 
-    $end            reduce using rule 23 (adverbio -> ADVERBIO .)
+    NEGACION        reduce using rule 47 (pronombre -> PRONOMBRE .)
+    ADVERBIO        reduce using rule 47 (pronombre -> PRONOMBRE .)
+    VERBO           reduce using rule 47 (pronombre -> PRONOMBRE .)
+    PREPOSICION     reduce using rule 47 (pronombre -> PRONOMBRE .)
+    PRONOMBRE       reduce using rule 47 (pronombre -> PRONOMBRE .)
+    $end            reduce using rule 47 (pronombre -> PRONOMBRE .)
+    ADJETIVO        reduce using rule 47 (pronombre -> PRONOMBRE .)
+    CONJUNCION      reduce using rule 47 (pronombre -> PRONOMBRE .)
+    DETERMINANTE    reduce using rule 47 (pronombre -> PRONOMBRE .)
+    NOMBRE_PROPIO   reduce using rule 47 (pronombre -> PRONOMBRE .)
 
 
 state 20
 
-    (5) sintagma_nominal -> determinante sustantivo .
-    (6) sintagma_nominal -> determinante sustantivo . adjetivo
-    (20) adjetivo -> . ADJETIVO
+    (48) nombre_propio -> NOMBRE_PROPIO .
 
-    VERBO           reduce using rule 5 (sintagma_nominal -> determinante sustantivo .)
-    $end            reduce using rule 5 (sintagma_nominal -> determinante sustantivo .)
-    PREPOSICION_A   reduce using rule 5 (sintagma_nominal -> determinante sustantivo .)
-    ADVERBIO        reduce using rule 5 (sintagma_nominal -> determinante sustantivo .)
-    ADJETIVO        shift and go to state 26
+    NEGACION        reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    ADVERBIO        reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    VERBO           reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    PREPOSICION     reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    PRONOMBRE       reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    $end            reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    ADJETIVO        reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    CONJUNCION      reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    DETERMINANTE    reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
+    NOMBRE_PROPIO   reduce using rule 48 (nombre_propio -> NOMBRE_PROPIO .)
 
-    adjetivo                       shift and go to state 25
 
 state 21
 
-    (18) sustantivo -> SUSTANTIVO .
+    (42) preposicion -> PREPOSICION .
 
-    ADJETIVO        reduce using rule 18 (sustantivo -> SUSTANTIVO .)
-    VERBO           reduce using rule 18 (sustantivo -> SUSTANTIVO .)
-    $end            reduce using rule 18 (sustantivo -> SUSTANTIVO .)
-    PREPOSICION_A   reduce using rule 18 (sustantivo -> SUSTANTIVO .)
-    ADVERBIO        reduce using rule 18 (sustantivo -> SUSTANTIVO .)
+    DETERMINANTE    reduce using rule 42 (preposicion -> PREPOSICION .)
+    PRONOMBRE       reduce using rule 42 (preposicion -> PREPOSICION .)
+    NOMBRE_PROPIO   reduce using rule 42 (preposicion -> PREPOSICION .)
 
 
 state 22
 
-    (11) predicado -> verbo complemento_directo complemento_indirecto .
+    (1) oracion -> adverbio oracion .
 
-    $end            reduce using rule 11 (predicado -> verbo complemento_directo complemento_indirecto .)
+    $end            reduce using rule 1 (oracion -> adverbio oracion .)
 
 
 state 23
 
-    (12) predicado -> verbo complemento_directo adverbio .
+    (2) oracion -> sujeto predicado .
 
-    $end            reduce using rule 12 (predicado -> verbo complemento_directo adverbio .)
+    $end            reduce using rule 2 (oracion -> sujeto predicado .)
 
 
 state 24
 
-    (16) complemento_indirecto -> PREPOSICION_A sintagma_nominal .
+    (16) predicado -> negacion . nucleo_predicado
+    (17) predicado -> negacion . nucleo_predicado complemento
+    (18) predicado -> negacion . verbo verbo complemento
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (45) verbo -> . VERBO
 
-    $end            reduce using rule 16 (complemento_indirecto -> PREPOSICION_A sintagma_nominal .)
+    VERBO           shift and go to state 17
 
+    nucleo_predicado               shift and go to state 52
+    verbo                          shift and go to state 53
 
 state 25
 
-    (6) sintagma_nominal -> determinante sustantivo adjetivo .
+    (23) nucleo_predicado -> verbo .
+    (24) nucleo_predicado -> verbo . nucleo_predicado
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (45) verbo -> . VERBO
 
-    VERBO           reduce using rule 6 (sintagma_nominal -> determinante sustantivo adjetivo .)
-    $end            reduce using rule 6 (sintagma_nominal -> determinante sustantivo adjetivo .)
-    PREPOSICION_A   reduce using rule 6 (sintagma_nominal -> determinante sustantivo adjetivo .)
-    ADVERBIO        reduce using rule 6 (sintagma_nominal -> determinante sustantivo adjetivo .)
+  ! shift/reduce conflict for VERBO resolved as shift
+    CONJUNCION      reduce using rule 23 (nucleo_predicado -> verbo .)
+    ADVERBIO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    ADJETIVO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    PREPOSICION     reduce using rule 23 (nucleo_predicado -> verbo .)
+    PRONOMBRE       reduce using rule 23 (nucleo_predicado -> verbo .)
+    DETERMINANTE    reduce using rule 23 (nucleo_predicado -> verbo .)
+    NOMBRE_PROPIO   reduce using rule 23 (nucleo_predicado -> verbo .)
+    $end            reduce using rule 23 (nucleo_predicado -> verbo .)
+    VERBO           shift and go to state 17
 
+  ! VERBO           [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+
+    verbo                          shift and go to state 25
+    nucleo_predicado               shift and go to state 44
 
 state 26
 
-    (20) adjetivo -> ADJETIVO .
+    (22) predicado -> adverbio .
 
-    VERBO           reduce using rule 20 (adjetivo -> ADJETIVO .)
-    $end            reduce using rule 20 (adjetivo -> ADJETIVO .)
-    PREPOSICION_A   reduce using rule 20 (adjetivo -> ADJETIVO .)
-    ADVERBIO        reduce using rule 20 (adjetivo -> ADJETIVO .)
+    $end            reduce using rule 22 (predicado -> adverbio .)
 
+
+state 27
+
+    (41) complemento_indirecto -> pronombre .
+
+    VERBO           reduce using rule 41 (complemento_indirecto -> pronombre .)
+
+
+state 28
+
+    (5) oracion -> negacion oracion .
+
+    $end            reduce using rule 5 (oracion -> negacion oracion .)
+
+
+state 29
+
+    (16) predicado -> negacion nucleo_predicado .
+    (17) predicado -> negacion nucleo_predicado . complemento
+    (14) predicado -> nucleo_predicado .
+    (15) predicado -> nucleo_predicado . complemento
+    (21) predicado -> nucleo_predicado . conjuncion oracion
+    (29) complemento -> . complemento_simple
+    (30) complemento -> . complemento complemento_simple
+    (31) complemento -> . nucleo_predicado
+    (50) conjuncion -> . CONJUNCION
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (45) verbo -> . VERBO
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+  ! reduce/reduce conflict for $end resolved using rule 14 (predicado -> nucleo_predicado .)
+    $end            reduce using rule 14 (predicado -> nucleo_predicado .)
+    CONJUNCION      shift and go to state 35
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    VERBO           shift and go to state 17
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+  ! $end            [ reduce using rule 16 (predicado -> negacion nucleo_predicado .) ]
+
+    nucleo_predicado               shift and go to state 31
+    complemento                    shift and go to state 54
+    conjuncion                     shift and go to state 33
+    complemento_simple             shift and go to state 34
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    verbo                          shift and go to state 25
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 30
+
+    (18) predicado -> negacion verbo . verbo complemento
+    (23) nucleo_predicado -> verbo .
+    (24) nucleo_predicado -> verbo . nucleo_predicado
+    (25) oracion_subordinada -> verbo . conjuncion pronombre verbo
+    (26) oracion_subordinada -> verbo . conjuncion oracion
+    (27) oracion_subordinada -> verbo . conjuncion predicado
+    (28) oracion_subordinada -> verbo . conjuncion
+    (45) verbo -> . VERBO
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (50) conjuncion -> . CONJUNCION
+
+  ! shift/reduce conflict for VERBO resolved as shift
+  ! shift/reduce conflict for CONJUNCION resolved as shift
+    ADVERBIO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    ADJETIVO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    PREPOSICION     reduce using rule 23 (nucleo_predicado -> verbo .)
+    PRONOMBRE       reduce using rule 23 (nucleo_predicado -> verbo .)
+    DETERMINANTE    reduce using rule 23 (nucleo_predicado -> verbo .)
+    NOMBRE_PROPIO   reduce using rule 23 (nucleo_predicado -> verbo .)
+    $end            reduce using rule 23 (nucleo_predicado -> verbo .)
+    VERBO           shift and go to state 17
+    CONJUNCION      shift and go to state 35
+
+  ! CONJUNCION      [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! VERBO           [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+
+    verbo                          shift and go to state 55
+    nucleo_predicado               shift and go to state 44
+    conjuncion                     shift and go to state 43
+
+state 31
+
+    (31) complemento -> nucleo_predicado .
+
+    ADVERBIO        reduce using rule 31 (complemento -> nucleo_predicado .)
+    ADJETIVO        reduce using rule 31 (complemento -> nucleo_predicado .)
+    CONJUNCION      reduce using rule 31 (complemento -> nucleo_predicado .)
+    PREPOSICION     reduce using rule 31 (complemento -> nucleo_predicado .)
+    PRONOMBRE       reduce using rule 31 (complemento -> nucleo_predicado .)
+    DETERMINANTE    reduce using rule 31 (complemento -> nucleo_predicado .)
+    NOMBRE_PROPIO   reduce using rule 31 (complemento -> nucleo_predicado .)
+    $end            reduce using rule 31 (complemento -> nucleo_predicado .)
+
+
+state 32
+
+    (15) predicado -> nucleo_predicado complemento .
+    (30) complemento -> complemento . complemento_simple
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+    $end            reduce using rule 15 (predicado -> nucleo_predicado complemento .)
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+    complemento_simple             shift and go to state 56
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 33
+
+    (21) predicado -> nucleo_predicado conjuncion . oracion
+    (36) complemento_simple -> conjuncion .
+    (1) oracion -> . adverbio oracion
+    (2) oracion -> . sujeto predicado
+    (3) oracion -> . sujeto
+    (4) oracion -> . predicado
+    (5) oracion -> . negacion oracion
+    (6) oracion -> . oracion_subordinada
+    (49) adverbio -> . ADVERBIO
+    (7) sujeto -> . sintagma_nominal
+    (14) predicado -> . nucleo_predicado
+    (15) predicado -> . nucleo_predicado complemento
+    (16) predicado -> . negacion nucleo_predicado
+    (17) predicado -> . negacion nucleo_predicado complemento
+    (18) predicado -> . negacion verbo verbo complemento
+    (19) predicado -> . complemento_indirecto nucleo_predicado
+    (20) predicado -> . complemento_indirecto nucleo_predicado complemento
+    (21) predicado -> . nucleo_predicado conjuncion oracion
+    (22) predicado -> . adverbio
+    (37) negacion -> . NEGACION
+    (25) oracion_subordinada -> . verbo conjuncion pronombre verbo
+    (26) oracion_subordinada -> . verbo conjuncion oracion
+    (27) oracion_subordinada -> . verbo conjuncion predicado
+    (28) oracion_subordinada -> . verbo conjuncion
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (45) verbo -> . VERBO
+    (43) determinante -> . DETERMINANTE
+    (47) pronombre -> . PRONOMBRE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+    (42) preposicion -> . PREPOSICION
+
+  ! shift/reduce conflict for ADVERBIO resolved as shift
+  ! shift/reduce conflict for DETERMINANTE resolved as shift
+  ! shift/reduce conflict for PRONOMBRE resolved as shift
+  ! shift/reduce conflict for NOMBRE_PROPIO resolved as shift
+  ! shift/reduce conflict for PREPOSICION resolved as shift
+    ADJETIVO        reduce using rule 36 (complemento_simple -> conjuncion .)
+    CONJUNCION      reduce using rule 36 (complemento_simple -> conjuncion .)
+    $end            reduce using rule 36 (complemento_simple -> conjuncion .)
+    ADVERBIO        shift and go to state 7
+    NEGACION        shift and go to state 12
+    VERBO           shift and go to state 17
+    DETERMINANTE    shift and go to state 18
+    PRONOMBRE       shift and go to state 19
+    NOMBRE_PROPIO   shift and go to state 20
+    PREPOSICION     shift and go to state 21
+
+  ! ADVERBIO        [ reduce using rule 36 (complemento_simple -> conjuncion .) ]
+  ! PREPOSICION     [ reduce using rule 36 (complemento_simple -> conjuncion .) ]
+  ! PRONOMBRE       [ reduce using rule 36 (complemento_simple -> conjuncion .) ]
+  ! DETERMINANTE    [ reduce using rule 36 (complemento_simple -> conjuncion .) ]
+  ! NOMBRE_PROPIO   [ reduce using rule 36 (complemento_simple -> conjuncion .) ]
+
+    nucleo_predicado               shift and go to state 9
+    oracion                        shift and go to state 58
+    adverbio                       shift and go to state 2
+    sujeto                         shift and go to state 3
+    predicado                      shift and go to state 4
+    negacion                       shift and go to state 5
+    oracion_subordinada            shift and go to state 6
+    sintagma_nominal               shift and go to state 8
+    verbo                          shift and go to state 10
+    complemento_indirecto          shift and go to state 11
+    pronombre                      shift and go to state 13
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+    preposicion                    shift and go to state 16
+
+state 34
+
+    (29) complemento -> complemento_simple .
+
+    ADVERBIO        reduce using rule 29 (complemento -> complemento_simple .)
+    ADJETIVO        reduce using rule 29 (complemento -> complemento_simple .)
+    CONJUNCION      reduce using rule 29 (complemento -> complemento_simple .)
+    PREPOSICION     reduce using rule 29 (complemento -> complemento_simple .)
+    PRONOMBRE       reduce using rule 29 (complemento -> complemento_simple .)
+    DETERMINANTE    reduce using rule 29 (complemento -> complemento_simple .)
+    NOMBRE_PROPIO   reduce using rule 29 (complemento -> complemento_simple .)
+    $end            reduce using rule 29 (complemento -> complemento_simple .)
+
+
+state 35
+
+    (50) conjuncion -> CONJUNCION .
+
+    ADVERBIO        reduce using rule 50 (conjuncion -> CONJUNCION .)
+    NEGACION        reduce using rule 50 (conjuncion -> CONJUNCION .)
+    VERBO           reduce using rule 50 (conjuncion -> CONJUNCION .)
+    DETERMINANTE    reduce using rule 50 (conjuncion -> CONJUNCION .)
+    PRONOMBRE       reduce using rule 50 (conjuncion -> CONJUNCION .)
+    NOMBRE_PROPIO   reduce using rule 50 (conjuncion -> CONJUNCION .)
+    PREPOSICION     reduce using rule 50 (conjuncion -> CONJUNCION .)
+    ADJETIVO        reduce using rule 50 (conjuncion -> CONJUNCION .)
+    CONJUNCION      reduce using rule 50 (conjuncion -> CONJUNCION .)
+    $end            reduce using rule 50 (conjuncion -> CONJUNCION .)
+
+
+state 36
+
+    (32) complemento_simple -> complemento_directo .
+
+    ADVERBIO        reduce using rule 32 (complemento_simple -> complemento_directo .)
+    ADJETIVO        reduce using rule 32 (complemento_simple -> complemento_directo .)
+    CONJUNCION      reduce using rule 32 (complemento_simple -> complemento_directo .)
+    PREPOSICION     reduce using rule 32 (complemento_simple -> complemento_directo .)
+    PRONOMBRE       reduce using rule 32 (complemento_simple -> complemento_directo .)
+    DETERMINANTE    reduce using rule 32 (complemento_simple -> complemento_directo .)
+    NOMBRE_PROPIO   reduce using rule 32 (complemento_simple -> complemento_directo .)
+    $end            reduce using rule 32 (complemento_simple -> complemento_directo .)
+
+
+state 37
+
+    (33) complemento_simple -> complemento_indirecto .
+
+    ADVERBIO        reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+    ADJETIVO        reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+    CONJUNCION      reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+    PREPOSICION     reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+    PRONOMBRE       reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+    DETERMINANTE    reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+    NOMBRE_PROPIO   reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+    $end            reduce using rule 33 (complemento_simple -> complemento_indirecto .)
+
+
+state 38
+
+    (34) complemento_simple -> adverbio .
+
+    ADVERBIO        reduce using rule 34 (complemento_simple -> adverbio .)
+    ADJETIVO        reduce using rule 34 (complemento_simple -> adverbio .)
+    CONJUNCION      reduce using rule 34 (complemento_simple -> adverbio .)
+    PREPOSICION     reduce using rule 34 (complemento_simple -> adverbio .)
+    PRONOMBRE       reduce using rule 34 (complemento_simple -> adverbio .)
+    DETERMINANTE    reduce using rule 34 (complemento_simple -> adverbio .)
+    NOMBRE_PROPIO   reduce using rule 34 (complemento_simple -> adverbio .)
+    $end            reduce using rule 34 (complemento_simple -> adverbio .)
+
+
+state 39
+
+    (35) complemento_simple -> adjetivo .
+
+    ADVERBIO        reduce using rule 35 (complemento_simple -> adjetivo .)
+    ADJETIVO        reduce using rule 35 (complemento_simple -> adjetivo .)
+    CONJUNCION      reduce using rule 35 (complemento_simple -> adjetivo .)
+    PREPOSICION     reduce using rule 35 (complemento_simple -> adjetivo .)
+    PRONOMBRE       reduce using rule 35 (complemento_simple -> adjetivo .)
+    DETERMINANTE    reduce using rule 35 (complemento_simple -> adjetivo .)
+    NOMBRE_PROPIO   reduce using rule 35 (complemento_simple -> adjetivo .)
+    $end            reduce using rule 35 (complemento_simple -> adjetivo .)
+
+
+state 40
+
+    (38) complemento_directo -> sintagma_nominal .
+
+    ADVERBIO        reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    ADJETIVO        reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    CONJUNCION      reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    PREPOSICION     reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    PRONOMBRE       reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    DETERMINANTE    reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    NOMBRE_PROPIO   reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    $end            reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+
+
+state 41
+
+    (41) complemento_indirecto -> pronombre .
+    (12) sintagma_nominal -> pronombre .
+
+  ! reduce/reduce conflict for ADVERBIO resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! reduce/reduce conflict for ADJETIVO resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! reduce/reduce conflict for CONJUNCION resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! reduce/reduce conflict for PREPOSICION resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! reduce/reduce conflict for PRONOMBRE resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! reduce/reduce conflict for DETERMINANTE resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! reduce/reduce conflict for NOMBRE_PROPIO resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! reduce/reduce conflict for $end resolved using rule 12 (sintagma_nominal -> pronombre .)
+    ADVERBIO        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    ADJETIVO        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    CONJUNCION      reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PREPOSICION     reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PRONOMBRE       reduce using rule 12 (sintagma_nominal -> pronombre .)
+    DETERMINANTE    reduce using rule 12 (sintagma_nominal -> pronombre .)
+    NOMBRE_PROPIO   reduce using rule 12 (sintagma_nominal -> pronombre .)
+    $end            reduce using rule 12 (sintagma_nominal -> pronombre .)
+
+  ! ADVERBIO        [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! ADJETIVO        [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! CONJUNCION      [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! PREPOSICION     [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! PRONOMBRE       [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! DETERMINANTE    [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! NOMBRE_PROPIO   [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! $end            [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+
+
+state 42
+
+    (46) adjetivo -> ADJETIVO .
+
+    ADVERBIO        reduce using rule 46 (adjetivo -> ADJETIVO .)
+    ADJETIVO        reduce using rule 46 (adjetivo -> ADJETIVO .)
+    CONJUNCION      reduce using rule 46 (adjetivo -> ADJETIVO .)
+    PREPOSICION     reduce using rule 46 (adjetivo -> ADJETIVO .)
+    PRONOMBRE       reduce using rule 46 (adjetivo -> ADJETIVO .)
+    DETERMINANTE    reduce using rule 46 (adjetivo -> ADJETIVO .)
+    NOMBRE_PROPIO   reduce using rule 46 (adjetivo -> ADJETIVO .)
+    $end            reduce using rule 46 (adjetivo -> ADJETIVO .)
+    SUSTANTIVO      reduce using rule 46 (adjetivo -> ADJETIVO .)
+    NEGACION        reduce using rule 46 (adjetivo -> ADJETIVO .)
+    VERBO           reduce using rule 46 (adjetivo -> ADJETIVO .)
+
+
+state 43
+
+    (25) oracion_subordinada -> verbo conjuncion . pronombre verbo
+    (26) oracion_subordinada -> verbo conjuncion . oracion
+    (27) oracion_subordinada -> verbo conjuncion . predicado
+    (28) oracion_subordinada -> verbo conjuncion .
+    (47) pronombre -> . PRONOMBRE
+    (1) oracion -> . adverbio oracion
+    (2) oracion -> . sujeto predicado
+    (3) oracion -> . sujeto
+    (4) oracion -> . predicado
+    (5) oracion -> . negacion oracion
+    (6) oracion -> . oracion_subordinada
+    (14) predicado -> . nucleo_predicado
+    (15) predicado -> . nucleo_predicado complemento
+    (16) predicado -> . negacion nucleo_predicado
+    (17) predicado -> . negacion nucleo_predicado complemento
+    (18) predicado -> . negacion verbo verbo complemento
+    (19) predicado -> . complemento_indirecto nucleo_predicado
+    (20) predicado -> . complemento_indirecto nucleo_predicado complemento
+    (21) predicado -> . nucleo_predicado conjuncion oracion
+    (22) predicado -> . adverbio
+    (49) adverbio -> . ADVERBIO
+    (7) sujeto -> . sintagma_nominal
+    (37) negacion -> . NEGACION
+    (25) oracion_subordinada -> . verbo conjuncion pronombre verbo
+    (26) oracion_subordinada -> . verbo conjuncion oracion
+    (27) oracion_subordinada -> . verbo conjuncion predicado
+    (28) oracion_subordinada -> . verbo conjuncion
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (45) verbo -> . VERBO
+    (42) preposicion -> . PREPOSICION
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+    $end            reduce using rule 28 (oracion_subordinada -> verbo conjuncion .)
+    PRONOMBRE       shift and go to state 19
+    ADVERBIO        shift and go to state 7
+    NEGACION        shift and go to state 12
+    VERBO           shift and go to state 17
+    PREPOSICION     shift and go to state 21
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+    verbo                          shift and go to state 10
+    pronombre                      shift and go to state 59
+    oracion                        shift and go to state 60
+    predicado                      shift and go to state 61
+    adverbio                       shift and go to state 2
+    sujeto                         shift and go to state 3
+    negacion                       shift and go to state 5
+    oracion_subordinada            shift and go to state 6
+    nucleo_predicado               shift and go to state 9
+    complemento_indirecto          shift and go to state 11
+    sintagma_nominal               shift and go to state 8
+    preposicion                    shift and go to state 16
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 44
+
+    (24) nucleo_predicado -> verbo nucleo_predicado .
+
+    CONJUNCION      reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    ADVERBIO        reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    ADJETIVO        reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    VERBO           reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    PREPOSICION     reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    PRONOMBRE       reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    DETERMINANTE    reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    NOMBRE_PROPIO   reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    $end            reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+
+
+state 45
+
+    (19) predicado -> complemento_indirecto nucleo_predicado .
+    (20) predicado -> complemento_indirecto nucleo_predicado . complemento
+    (29) complemento -> . complemento_simple
+    (30) complemento -> . complemento complemento_simple
+    (31) complemento -> . nucleo_predicado
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (45) verbo -> . VERBO
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+    $end            reduce using rule 19 (predicado -> complemento_indirecto nucleo_predicado .)
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    VERBO           shift and go to state 17
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+    complemento_indirecto          shift and go to state 37
+    nucleo_predicado               shift and go to state 31
+    complemento                    shift and go to state 62
+    complemento_simple             shift and go to state 34
+    complemento_directo            shift and go to state 36
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    verbo                          shift and go to state 25
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 46
+
+    (8) sintagma_nominal -> determinante sustantivo .
+    (9) sintagma_nominal -> determinante sustantivo . adjetivo
+    (46) adjetivo -> . ADJETIVO
+
+  ! shift/reduce conflict for ADJETIVO resolved as shift
+    NEGACION        reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    ADVERBIO        reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    VERBO           reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    PREPOSICION     reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    PRONOMBRE       reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    $end            reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    CONJUNCION      reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    DETERMINANTE    reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    NOMBRE_PROPIO   reduce using rule 8 (sintagma_nominal -> determinante sustantivo .)
+    ADJETIVO        shift and go to state 42
+
+  ! ADJETIVO        [ reduce using rule 8 (sintagma_nominal -> determinante sustantivo .) ]
+
+    adjetivo                       shift and go to state 63
+
+state 47
+
+    (10) sintagma_nominal -> determinante adjetivo . sustantivo
+    (44) sustantivo -> . SUSTANTIVO
+
+    SUSTANTIVO      shift and go to state 48
+
+    sustantivo                     shift and go to state 64
+
+state 48
+
+    (44) sustantivo -> SUSTANTIVO .
+
+    ADJETIVO        reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    NEGACION        reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    ADVERBIO        reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    VERBO           reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    PREPOSICION     reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    PRONOMBRE       reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    $end            reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    CONJUNCION      reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    DETERMINANTE    reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+    NOMBRE_PROPIO   reduce using rule 44 (sustantivo -> SUSTANTIVO .)
+
+
+state 49
+
+    (39) complemento_indirecto -> preposicion sintagma_nominal .
+    (38) complemento_directo -> sintagma_nominal .
+
+  ! reduce/reduce conflict for VERBO resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for ADVERBIO resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for ADJETIVO resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for CONJUNCION resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for PREPOSICION resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for PRONOMBRE resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for DETERMINANTE resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for NOMBRE_PROPIO resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+  ! reduce/reduce conflict for $end resolved using rule 38 (complemento_directo -> sintagma_nominal .)
+    VERBO           reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    ADVERBIO        reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    ADJETIVO        reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    CONJUNCION      reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    PREPOSICION     reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    PRONOMBRE       reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    DETERMINANTE    reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    NOMBRE_PROPIO   reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+    $end            reduce using rule 38 (complemento_directo -> sintagma_nominal .)
+
+  ! VERBO           [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! ADVERBIO        [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! ADJETIVO        [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! CONJUNCION      [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! PREPOSICION     [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! PRONOMBRE       [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! DETERMINANTE    [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! NOMBRE_PROPIO   [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+  ! $end            [ reduce using rule 39 (complemento_indirecto -> preposicion sintagma_nominal .) ]
+
+
+state 50
+
+    (40) complemento_indirecto -> preposicion complemento_directo .
+
+    VERBO           reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    ADVERBIO        reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    ADJETIVO        reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    CONJUNCION      reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    PREPOSICION     reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    PRONOMBRE       reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    DETERMINANTE    reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    NOMBRE_PROPIO   reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+    $end            reduce using rule 40 (complemento_indirecto -> preposicion complemento_directo .)
+
+
+state 51
+
+    (12) sintagma_nominal -> pronombre .
+
+    VERBO           reduce using rule 12 (sintagma_nominal -> pronombre .)
+    ADVERBIO        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    ADJETIVO        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    CONJUNCION      reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PREPOSICION     reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PRONOMBRE       reduce using rule 12 (sintagma_nominal -> pronombre .)
+    DETERMINANTE    reduce using rule 12 (sintagma_nominal -> pronombre .)
+    NOMBRE_PROPIO   reduce using rule 12 (sintagma_nominal -> pronombre .)
+    $end            reduce using rule 12 (sintagma_nominal -> pronombre .)
+
+
+state 52
+
+    (16) predicado -> negacion nucleo_predicado .
+    (17) predicado -> negacion nucleo_predicado . complemento
+    (29) complemento -> . complemento_simple
+    (30) complemento -> . complemento complemento_simple
+    (31) complemento -> . nucleo_predicado
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (45) verbo -> . VERBO
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+    $end            reduce using rule 16 (predicado -> negacion nucleo_predicado .)
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    VERBO           shift and go to state 17
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+    nucleo_predicado               shift and go to state 31
+    complemento                    shift and go to state 65
+    complemento_simple             shift and go to state 34
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    verbo                          shift and go to state 25
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 53
+
+    (18) predicado -> negacion verbo . verbo complemento
+    (23) nucleo_predicado -> verbo .
+    (24) nucleo_predicado -> verbo . nucleo_predicado
+    (45) verbo -> . VERBO
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+
+  ! shift/reduce conflict for VERBO resolved as shift
+    ADVERBIO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    ADJETIVO        reduce using rule 23 (nucleo_predicado -> verbo .)
+    CONJUNCION      reduce using rule 23 (nucleo_predicado -> verbo .)
+    PREPOSICION     reduce using rule 23 (nucleo_predicado -> verbo .)
+    PRONOMBRE       reduce using rule 23 (nucleo_predicado -> verbo .)
+    DETERMINANTE    reduce using rule 23 (nucleo_predicado -> verbo .)
+    NOMBRE_PROPIO   reduce using rule 23 (nucleo_predicado -> verbo .)
+    $end            reduce using rule 23 (nucleo_predicado -> verbo .)
+    VERBO           shift and go to state 17
+
+  ! VERBO           [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+
+    verbo                          shift and go to state 55
+    nucleo_predicado               shift and go to state 44
+
+state 54
+
+    (17) predicado -> negacion nucleo_predicado complemento .
+    (15) predicado -> nucleo_predicado complemento .
+    (30) complemento -> complemento . complemento_simple
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+  ! reduce/reduce conflict for $end resolved using rule 15 (predicado -> nucleo_predicado complemento .)
+    $end            reduce using rule 15 (predicado -> nucleo_predicado complemento .)
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+  ! $end            [ reduce using rule 17 (predicado -> negacion nucleo_predicado complemento .) ]
+
+    complemento_simple             shift and go to state 56
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 55
+
+    (18) predicado -> negacion verbo verbo . complemento
+    (23) nucleo_predicado -> verbo .
+    (24) nucleo_predicado -> verbo . nucleo_predicado
+    (29) complemento -> . complemento_simple
+    (30) complemento -> . complemento complemento_simple
+    (31) complemento -> . nucleo_predicado
+    (23) nucleo_predicado -> . verbo
+    (24) nucleo_predicado -> . verbo nucleo_predicado
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (45) verbo -> . VERBO
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+  ! shift/reduce conflict for VERBO resolved as shift
+  ! shift/reduce conflict for ADVERBIO resolved as shift
+  ! shift/reduce conflict for ADJETIVO resolved as shift
+  ! shift/reduce conflict for CONJUNCION resolved as shift
+  ! shift/reduce conflict for PREPOSICION resolved as shift
+  ! shift/reduce conflict for PRONOMBRE resolved as shift
+  ! shift/reduce conflict for DETERMINANTE resolved as shift
+  ! shift/reduce conflict for NOMBRE_PROPIO resolved as shift
+    $end            reduce using rule 23 (nucleo_predicado -> verbo .)
+    VERBO           shift and go to state 17
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+  ! CONJUNCION      [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! ADVERBIO        [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! ADJETIVO        [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! VERBO           [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! PREPOSICION     [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! PRONOMBRE       [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! DETERMINANTE    [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+  ! NOMBRE_PROPIO   [ reduce using rule 23 (nucleo_predicado -> verbo .) ]
+
+    verbo                          shift and go to state 25
+    complemento                    shift and go to state 66
+    nucleo_predicado               shift and go to state 67
+    complemento_simple             shift and go to state 34
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 56
+
+    (30) complemento -> complemento complemento_simple .
+
+    ADVERBIO        reduce using rule 30 (complemento -> complemento complemento_simple .)
+    ADJETIVO        reduce using rule 30 (complemento -> complemento complemento_simple .)
+    CONJUNCION      reduce using rule 30 (complemento -> complemento complemento_simple .)
+    PREPOSICION     reduce using rule 30 (complemento -> complemento complemento_simple .)
+    PRONOMBRE       reduce using rule 30 (complemento -> complemento complemento_simple .)
+    DETERMINANTE    reduce using rule 30 (complemento -> complemento complemento_simple .)
+    NOMBRE_PROPIO   reduce using rule 30 (complemento -> complemento complemento_simple .)
+    $end            reduce using rule 30 (complemento -> complemento complemento_simple .)
+
+
+state 57
+
+    (36) complemento_simple -> conjuncion .
+
+    ADVERBIO        reduce using rule 36 (complemento_simple -> conjuncion .)
+    ADJETIVO        reduce using rule 36 (complemento_simple -> conjuncion .)
+    CONJUNCION      reduce using rule 36 (complemento_simple -> conjuncion .)
+    PREPOSICION     reduce using rule 36 (complemento_simple -> conjuncion .)
+    PRONOMBRE       reduce using rule 36 (complemento_simple -> conjuncion .)
+    DETERMINANTE    reduce using rule 36 (complemento_simple -> conjuncion .)
+    NOMBRE_PROPIO   reduce using rule 36 (complemento_simple -> conjuncion .)
+    $end            reduce using rule 36 (complemento_simple -> conjuncion .)
+
+
+state 58
+
+    (21) predicado -> nucleo_predicado conjuncion oracion .
+
+    $end            reduce using rule 21 (predicado -> nucleo_predicado conjuncion oracion .)
+
+
+state 59
+
+    (25) oracion_subordinada -> verbo conjuncion pronombre . verbo
+    (41) complemento_indirecto -> pronombre .
+    (12) sintagma_nominal -> pronombre .
+    (45) verbo -> . VERBO
+
+  ! reduce/reduce conflict for VERBO resolved using rule 12 (sintagma_nominal -> pronombre .)
+  ! shift/reduce conflict for VERBO resolved as shift
+    NEGACION        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    ADVERBIO        reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PREPOSICION     reduce using rule 12 (sintagma_nominal -> pronombre .)
+    PRONOMBRE       reduce using rule 12 (sintagma_nominal -> pronombre .)
+    $end            reduce using rule 12 (sintagma_nominal -> pronombre .)
+    VERBO           shift and go to state 17
+
+  ! VERBO           [ reduce using rule 41 (complemento_indirecto -> pronombre .) ]
+  ! VERBO           [ reduce using rule 12 (sintagma_nominal -> pronombre .) ]
+
+    verbo                          shift and go to state 68
+
+state 60
+
+    (26) oracion_subordinada -> verbo conjuncion oracion .
+
+    $end            reduce using rule 26 (oracion_subordinada -> verbo conjuncion oracion .)
+
+
+state 61
+
+    (27) oracion_subordinada -> verbo conjuncion predicado .
+    (4) oracion -> predicado .
+
+  ! reduce/reduce conflict for $end resolved using rule 4 (oracion -> predicado .)
+    $end            reduce using rule 4 (oracion -> predicado .)
+
+  ! $end            [ reduce using rule 27 (oracion_subordinada -> verbo conjuncion predicado .) ]
+
+
+state 62
+
+    (20) predicado -> complemento_indirecto nucleo_predicado complemento .
+    (30) complemento -> complemento . complemento_simple
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+    $end            reduce using rule 20 (predicado -> complemento_indirecto nucleo_predicado complemento .)
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+    complemento_indirecto          shift and go to state 37
+    complemento_simple             shift and go to state 56
+    complemento_directo            shift and go to state 36
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 63
+
+    (9) sintagma_nominal -> determinante sustantivo adjetivo .
+
+    NEGACION        reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    ADVERBIO        reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    VERBO           reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    PREPOSICION     reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    PRONOMBRE       reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    $end            reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    ADJETIVO        reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    CONJUNCION      reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    DETERMINANTE    reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+    NOMBRE_PROPIO   reduce using rule 9 (sintagma_nominal -> determinante sustantivo adjetivo .)
+
+
+state 64
+
+    (10) sintagma_nominal -> determinante adjetivo sustantivo .
+
+    NEGACION        reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    ADVERBIO        reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    VERBO           reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    PREPOSICION     reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    PRONOMBRE       reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    $end            reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    ADJETIVO        reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    CONJUNCION      reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    DETERMINANTE    reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+    NOMBRE_PROPIO   reduce using rule 10 (sintagma_nominal -> determinante adjetivo sustantivo .)
+
+
+state 65
+
+    (17) predicado -> negacion nucleo_predicado complemento .
+    (30) complemento -> complemento . complemento_simple
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+    $end            reduce using rule 17 (predicado -> negacion nucleo_predicado complemento .)
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+    complemento_simple             shift and go to state 56
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 66
+
+    (18) predicado -> negacion verbo verbo complemento .
+    (30) complemento -> complemento . complemento_simple
+    (32) complemento_simple -> . complemento_directo
+    (33) complemento_simple -> . complemento_indirecto
+    (34) complemento_simple -> . adverbio
+    (35) complemento_simple -> . adjetivo
+    (36) complemento_simple -> . conjuncion
+    (38) complemento_directo -> . sintagma_nominal
+    (39) complemento_indirecto -> . preposicion sintagma_nominal
+    (40) complemento_indirecto -> . preposicion complemento_directo
+    (41) complemento_indirecto -> . pronombre
+    (49) adverbio -> . ADVERBIO
+    (46) adjetivo -> . ADJETIVO
+    (50) conjuncion -> . CONJUNCION
+    (8) sintagma_nominal -> . determinante sustantivo
+    (9) sintagma_nominal -> . determinante sustantivo adjetivo
+    (10) sintagma_nominal -> . determinante adjetivo sustantivo
+    (11) sintagma_nominal -> . determinante
+    (12) sintagma_nominal -> . pronombre
+    (13) sintagma_nominal -> . nombre_propio
+    (42) preposicion -> . PREPOSICION
+    (47) pronombre -> . PRONOMBRE
+    (43) determinante -> . DETERMINANTE
+    (48) nombre_propio -> . NOMBRE_PROPIO
+
+    $end            reduce using rule 18 (predicado -> negacion verbo verbo complemento .)
+    ADVERBIO        shift and go to state 7
+    ADJETIVO        shift and go to state 42
+    CONJUNCION      shift and go to state 35
+    PREPOSICION     shift and go to state 21
+    PRONOMBRE       shift and go to state 19
+    DETERMINANTE    shift and go to state 18
+    NOMBRE_PROPIO   shift and go to state 20
+
+    complemento_simple             shift and go to state 56
+    complemento_directo            shift and go to state 36
+    complemento_indirecto          shift and go to state 37
+    adverbio                       shift and go to state 38
+    adjetivo                       shift and go to state 39
+    conjuncion                     shift and go to state 57
+    sintagma_nominal               shift and go to state 40
+    preposicion                    shift and go to state 16
+    pronombre                      shift and go to state 41
+    determinante                   shift and go to state 14
+    nombre_propio                  shift and go to state 15
+
+state 67
+
+    (24) nucleo_predicado -> verbo nucleo_predicado .
+    (31) complemento -> nucleo_predicado .
+
+  ! reduce/reduce conflict for ADVERBIO resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+  ! reduce/reduce conflict for ADJETIVO resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+  ! reduce/reduce conflict for CONJUNCION resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+  ! reduce/reduce conflict for PREPOSICION resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+  ! reduce/reduce conflict for PRONOMBRE resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+  ! reduce/reduce conflict for DETERMINANTE resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+  ! reduce/reduce conflict for NOMBRE_PROPIO resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+  ! reduce/reduce conflict for $end resolved using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    CONJUNCION      reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    ADVERBIO        reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    ADJETIVO        reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    VERBO           reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    PREPOSICION     reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    PRONOMBRE       reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    DETERMINANTE    reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    NOMBRE_PROPIO   reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+    $end            reduce using rule 24 (nucleo_predicado -> verbo nucleo_predicado .)
+
+  ! ADVERBIO        [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+  ! ADJETIVO        [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+  ! CONJUNCION      [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+  ! PREPOSICION     [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+  ! PRONOMBRE       [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+  ! DETERMINANTE    [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+  ! NOMBRE_PROPIO   [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+  ! $end            [ reduce using rule 31 (complemento -> nucleo_predicado .) ]
+
+
+state 68
+
+    (25) oracion_subordinada -> verbo conjuncion pronombre verbo .
+
+    $end            reduce using rule 25 (oracion_subordinada -> verbo conjuncion pronombre verbo .)
+
+WARNING: 
+WARNING: Conflicts:
+WARNING: 
+WARNING: shift/reduce conflict for CONJUNCION in state 10 resolved as shift
+WARNING: shift/reduce conflict for VERBO in state 10 resolved as shift
+WARNING: shift/reduce conflict for ADJETIVO in state 14 resolved as shift
+WARNING: shift/reduce conflict for VERBO in state 25 resolved as shift
+WARNING: shift/reduce conflict for VERBO in state 30 resolved as shift
+WARNING: shift/reduce conflict for CONJUNCION in state 30 resolved as shift
+WARNING: shift/reduce conflict for ADVERBIO in state 33 resolved as shift
+WARNING: shift/reduce conflict for DETERMINANTE in state 33 resolved as shift
+WARNING: shift/reduce conflict for PRONOMBRE in state 33 resolved as shift
+WARNING: shift/reduce conflict for NOMBRE_PROPIO in state 33 resolved as shift
+WARNING: shift/reduce conflict for PREPOSICION in state 33 resolved as shift
+WARNING: shift/reduce conflict for ADJETIVO in state 46 resolved as shift
+WARNING: shift/reduce conflict for VERBO in state 53 resolved as shift
+WARNING: shift/reduce conflict for VERBO in state 55 resolved as shift
+WARNING: shift/reduce conflict for ADVERBIO in state 55 resolved as shift
+WARNING: shift/reduce conflict for ADJETIVO in state 55 resolved as shift
+WARNING: shift/reduce conflict for CONJUNCION in state 55 resolved as shift
+WARNING: shift/reduce conflict for PREPOSICION in state 55 resolved as shift
+WARNING: shift/reduce conflict for PRONOMBRE in state 55 resolved as shift
+WARNING: shift/reduce conflict for DETERMINANTE in state 55 resolved as shift
+WARNING: shift/reduce conflict for NOMBRE_PROPIO in state 55 resolved as shift
+WARNING: shift/reduce conflict for VERBO in state 59 resolved as shift
+WARNING: reduce/reduce conflict in state 13 resolved using rule (sintagma_nominal -> pronombre)
+WARNING: rejected rule (complemento_indirecto -> pronombre) in state 13
+WARNING: reduce/reduce conflict in state 29 resolved using rule (predicado -> nucleo_predicado)
+WARNING: rejected rule (predicado -> negacion nucleo_predicado) in state 29
+WARNING: reduce/reduce conflict in state 41 resolved using rule (sintagma_nominal -> pronombre)
+WARNING: rejected rule (complemento_indirecto -> pronombre) in state 41
+WARNING: reduce/reduce conflict in state 49 resolved using rule (complemento_directo -> sintagma_nominal)
+WARNING: rejected rule (complemento_indirecto -> preposicion sintagma_nominal) in state 49
+WARNING: reduce/reduce conflict in state 54 resolved using rule (predicado -> nucleo_predicado complemento)
+WARNING: rejected rule (predicado -> negacion nucleo_predicado complemento) in state 54
+WARNING: reduce/reduce conflict in state 59 resolved using rule (sintagma_nominal -> pronombre)
+WARNING: rejected rule (complemento_indirecto -> pronombre) in state 59
+WARNING: reduce/reduce conflict in state 61 resolved using rule (oracion -> predicado)
+WARNING: rejected rule (oracion_subordinada -> verbo conjuncion predicado) in state 61
+WARNING: reduce/reduce conflict in state 67 resolved using rule (nucleo_predicado -> verbo nucleo_predicado)
+WARNING: rejected rule (complemento -> nucleo_predicado) in state 67
+WARNING: Rule (complemento_indirecto -> preposicion sintagma_nominal) is never reduced
+WARNING: Rule (oracion_subordinada -> verbo conjuncion predicado) is never reduced
