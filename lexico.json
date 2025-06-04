@@ -722,6 +722,18 @@
                 "persona": "segunda",
                 "numero": "singular"
             },
+            "quieras": {
+                "tipo": "VERBO",
+                "tiempo": "subjuntivo",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "quiera": {
+                "tipo": "VERBO",
+                "tiempo": "imperativo",
+                "persona": "tercera",
+                "numero": "singular"
+            },
             "pasa": {
                 "tipo": "VERBO",
                 "tiempo": "presente",
@@ -912,6 +924,9 @@
         },
         "adverbio": {
             "hoy": {
+                "tipo": "ADVERBIO"
+            },
+            "nada": {
                 "tipo": "ADVERBIO"
             },
             "mañana": {

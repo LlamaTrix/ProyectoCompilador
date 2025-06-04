@@ -26,7 +26,9 @@ def p_sintagma_nominal(p):
                         | determinante sustantivo adjetivo
                         | determinante adjetivo sustantivo
                         | determinante
+                        | pronombre sustantivo
                         | pronombre
+                        | sustantivo
                         | nombre_propio'''
     if len(p) == 3:
         p[0] = ('SINTAGMA_NOMINAL', p[1], p[2])
@@ -39,19 +41,16 @@ def p_predicado(p):
     '''
     predicado : nucleo_predicado
               | nucleo_predicado complemento
-              | negacion nucleo_predicado
-              | negacion nucleo_predicado complemento
-              | negacion verbo verbo complemento
+              | nucleo_predicado oracion_relativa 
               | complemento_indirecto nucleo_predicado
               | complemento_indirecto nucleo_predicado complemento
-              | nucleo_predicado conjuncion oracion
-              | adverbio
+              | nucleo_predicado sustantivo
+              | nucleo_predicado sustantivo complemento
+              | nucleo_predicado sustantivo complemento oracion
     '''
     if len(p) == 2:
         p[0] = ('PREDICADO_SIMPLE', p[1])
-    elif len(p) == 3:
-        p[0] = ('PREDICADO_NEGADO', p[1], p[2])
-    elif len(p) == 5 and p[1] == 'no':  # Ejemplo: no quiero ir a la fiesta
+    elif len(p) == 5 and p[1] == 'no':
         p[0] = ('PREDICADO_NEGADO_COMPUESTO', p[1], p[2], p[3], p[4])
     elif len(p) == 4 and p[2] == 'conjuncion':
         p[0] = ('PREDICADO_SUBORDINADA', p[1], p[2], p[3])
@@ -68,6 +67,16 @@ def p_nucleo_predicado(p):
         p[0] = ('NUCLEO', p[1])
     else:
         p[0] = ('NUCLEO_COMPUESTO', p[1], p[2])
+
+def p_oracion_relativa(p):
+    '''
+    oracion_relativa : complemento verbo
+                     | complemento pronombre verbo
+    '''
+    if len(p) == 3:
+        p[0] = ('ORACION_RELATIVA', p[1], p[2])
+    else:
+        p[0] = ('ORACION_RELATIVA', p[1], p[2], p[3])
 
 def p_oracion_subordinada(p):
     '''
@@ -88,10 +97,9 @@ def p_complemento(p):
     '''
     complemento : complemento_simple
                 | complemento complemento_simple
-                | nucleo_predicado
     '''
     if len(p) == 2:
-        p[0] = ('COMPLEMENTO', p[1])
+        p[0] = p[1]
     else:
         p[0] = ('COMPLEMENTO_COMPUESTO', p[1], p[2])
 
@@ -115,7 +123,6 @@ def p_complemento_directo(p):
 
 def p_complemento_indirecto(p):
     '''complemento_indirecto : preposicion sintagma_nominal
-                             | preposicion complemento_directo
                              | pronombre'''
     if len(p) == 2:
         p[0] = ('COMPLEMENTO_INDIRECTO', p[1])
