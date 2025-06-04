@@ -10,9 +10,17 @@ def p_oracion(p):
                | sujeto predicado
                | sujeto
                | predicado
+               | adverbio
+               | sustantivo
+               | adjetivo
                | negacion oracion
-               | oracion_subordinada'''
-    if len(p) == 3:
+               | oracion_subordinada
+               | comparacion
+               | comparacion conjuncion sintagma_nominal
+               '''
+    if len(p) == 4:
+        p[0] = ('ORACION', p[1], p[2], p[3])
+    elif len(p) == 3:
         p[0] = ('ORACION', p[1], p[2])
     else:
         p[0] = ('ORACION', p[1])
@@ -20,6 +28,13 @@ def p_oracion(p):
 def p_sujeto(p):
     'sujeto : sintagma_nominal'
     p[0] = ('SUJETO', p[1])
+
+def p_comparacion(p):
+    '''
+    comparacion : verbo conjuncion sujeto verbo adverbio adjetivo
+                | verbo conjuncion sujeto verbo adverbio sustantivo
+    '''
+    p[0] = ('COMPARACION', p[1], p[2], p[3], p[4], p[5], p[6])
 
 def p_sintagma_nominal(p):
     '''sintagma_nominal : determinante sustantivo
@@ -41,12 +56,15 @@ def p_predicado(p):
     '''
     predicado : nucleo_predicado
               | nucleo_predicado complemento
+              | nucleo_predicado adverbio adjetivo
+              | nucleo_predicado adjetivo
               | nucleo_predicado oracion_relativa 
               | complemento_indirecto nucleo_predicado
               | complemento_indirecto nucleo_predicado complemento
               | nucleo_predicado sustantivo
               | nucleo_predicado sustantivo complemento
               | nucleo_predicado sustantivo complemento oracion
+              | conjuncion nucleo_predicado
     '''
     if len(p) == 2:
         p[0] = ('PREDICADO_SIMPLE', p[1])
@@ -80,18 +98,17 @@ def p_oracion_relativa(p):
 
 def p_oracion_subordinada(p):
     '''
-    oracion_subordinada : verbo conjuncion pronombre verbo
-                        | verbo conjuncion oracion
+    oracion_subordinada : verbo conjuncion oracion
+                        | verbo conjuncion sujeto predicado
                         | verbo conjuncion predicado
                         | verbo conjuncion
     '''
     if len(p) == 5:
-        if isinstance(p[4], tuple) and p[4][0] == 'ADVERBIO':
-            p[0] = ('ORACION_SUBORDINADA_ADV', p[1], p[2], p[3], p[4])
-        else:
-            p[0] = ('ORACION_SUBORDINADA', p[1], p[2], p[3], p[4])
+        p[0] = ('ORACION_SUBORDINADA', p[1], p[2], p[3], p[4])
+    elif len(p) == 4:
+        p[0] = ('ORACION_SUBORDINADA', p[1], p[2], p[3])
     else:
-        p[0] = ('ORACION_SUBORDINADA_SIMPLE', p[1], p[2], p[3])
+        p[0] = ('ORACION_SUBORDINADA_SIMPLE', p[1], p[2])
 
 def p_complemento(p):
     '''
@@ -110,6 +127,7 @@ def p_complemento_simple(p):
                        | adverbio
                        | adjetivo
                        | conjuncion
+                       | conjuncion sintagma_nominal
     '''
     p[0] = ('COMPLEMENTO_SIMPLE', p[1])
 

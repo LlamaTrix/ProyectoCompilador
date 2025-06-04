@@ -100,6 +100,86 @@
                 "tipo": "DETERMINANTE",
                 "genero": "femenino",
                 "numero": "plural"
+            },
+            "algún": {
+                "tipo": "DETERMINANTE",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "alguna": {
+                "tipo": "DETERMINANTE",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "varios": {
+                "tipo": "DETERMINANTE",
+                "genero": "masculino",
+                "numero": "plural"
+            },
+            "varias": {
+                "tipo": "DETERMINANTE",
+                "genero": "femenino",
+                "numero": "plural"
+            },
+            "cada": {
+                "tipo": "DETERMINANTE",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "sendos": {
+                "tipo": "DETERMINANTE",
+                "genero": "masculino",
+                "numero": "plural"
+            },
+            "sendas": {
+                "tipo": "DETERMINANTE",
+                "genero": "femenino",
+                "numero": "plural"
+            },
+            "cierto": {
+                "tipo": "DETERMINANTE",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "cierta": {
+                "tipo": "DETERMINANTE",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "demasiado": {
+                "tipo": "DETERMINANTE",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "demasiada": {
+                "tipo": "DETERMINANTE",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "escaso": {
+                "tipo": "DETERMINANTE",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "escasa": {
+                "tipo": "DETERMINANTE",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "bastante": {
+                "tipo": "DETERMINANTE",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "cuanto": {
+                "tipo": "DETERMINANTE",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "cuanta": {
+                "tipo": "DETERMINANTE",
+                "genero": "femenino",
+                "numero": "singular"
             }
         },
         "sustantivo": {
@@ -557,6 +637,246 @@
                 "tipo": "SUSTANTIVO",
                 "genero": "masculino",
                 "numero": "singular"
+            },
+            "odio": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "risa": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "llanto": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "sueño": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "pesadilla": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "esperanza": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "desesperación": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "éxito": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "fracaso": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "aventura": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "rutina": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "libertad": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "esclavitud": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "paz": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "guerra": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "cielo": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "infierno": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "paraíso": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "destino": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "azar": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "caos": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "orden": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "arte": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "ciencia": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "tecnología": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "naturaleza": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "civilización": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "cultura": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "tradición": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "innovación": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "pasado": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "presente": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "futuro": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "eternidad": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "instante": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "segundo": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "hora": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "década": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "siglo": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "milenio": {
+                "tipo": "SUSTANTIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "edad": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "juventud": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "vejez": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "niñez": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "adultez": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "madurez": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "infancia": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "adolescencia": {
+                "tipo": "SUSTANTIVO",
+                "genero": "femenino",
+                "numero": "singular"
             }
         },
         "verbo": {
@@ -565,6 +885,90 @@
                 "tiempo": "presente",
                 "persona": "primera",
                 "numero": "singular"
+            },
+            "amo": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "amas": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "ama": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "tercera",
+                "numero": "singular"
+            },
+            "amamos": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "plural"
+            },
+            "aman": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda tercera",
+                "numero": "plural"
+            },
+            "trabajo": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "trabajas": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "trabaja": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "tercera",
+                "numero": "singular"
+            },
+            "trabajamos": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "plural"
+            },
+            "trabajan": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda tercera",
+                "numero": "plural"
+            },
+            "soy": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "eres": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "somos": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "primera",
+                "numero": "plural"
+            },
+            "son": {
+                "tipo": "VERBO",
+                "tiempo": "presente",
+                "persona": "segunda tercera",
+                "numero": "plural"
             },
             "puedo": {
                 "tipo": "VERBO",
@@ -853,6 +1257,158 @@
                 "tiempo": "presente",
                 "persona": "tercera",
                 "numero": "singular"
+            },
+            "amar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "odiar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "reír": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "llorar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "soñar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "dormir": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "despertar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "esperar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "desesperar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "triunfar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "fracasar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "aventurar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "rutinizar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "liberar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "esclavizar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "pacificar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "guerrear": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "elevar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "descender": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "destinar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "azarar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "desordenar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "ordenar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "crear": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "destruir": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "construir": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "innovar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "tradicionalizar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "pasar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "presentar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "futurizar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "eternizar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "instantear": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "envejecer": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "rejuvenecer": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "madurar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "infantilizar": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
+            },
+            "adolescer": {
+                "tipo": "VERBO",
+                "tiempo": "infinitivo"
             }
         },
         "adjetivo": {
@@ -866,10 +1422,65 @@
                 "genero": "femenino",
                 "numero": "singular"
             },
+            "bonito": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "bonitos": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "plural"
+            },
+            "bonitas": {
+                "tipo": "ADJETIVO",
+                "genero": "femenino",
+                "numero": "plural"
+            },
             "buen": {
                 "tipo": "ADJETIVO",
                 "genero": "masculino",
                 "numero": "singular"
+            },
+            "estudiosos": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "plural"
+            },
+            "estudioso": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "caprichoso": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "caprichosa": {
+                "tipo": "ADJETIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "atractiva": {
+                "tipo": "ADJETIVO",
+                "genero": "femenino",
+                "numero": "singular"
+            },
+            "atractivo": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "fuerte": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "fuertes": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "plural"
             },
             "buena": {
                 "tipo": "ADJETIVO",
@@ -917,6 +1528,216 @@
                 "numero": "singular"
             },
             "importante": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "amoroso": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "odioso": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "risueño": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "lloroso": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "soñador": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "dormilón": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "esperanzador": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "desesperante": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "exitoso": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "fracasado": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "aventurero": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "rutinario": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "libre": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "esclavo": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "pacífico": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "belicoso": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "celestial": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "infernal": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "paradisíaco": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "destinado": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "caótico": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "ordenado": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "artístico": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "científico": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "tecnológico": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "natural": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "civilizado": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "cultural": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "tradicional": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "innovador": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "pasado": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "presente": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "futuro": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "eterno": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "instantáneo": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "joven": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "viejo": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "niño": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "adulto": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "maduro": {
+                "tipo": "ADJETIVO",
+                "genero": "masculino",
+                "numero": "singular"
+            },
+            "infantil": {
+                "tipo": "ADJETIVO",
+                "genero": "invariable",
+                "numero": "singular"
+            },
+            "adolescente": {
                 "tipo": "ADJETIVO",
                 "genero": "invariable",
                 "numero": "singular"
@@ -979,6 +1800,126 @@
             },
             "primero": {
                 "tipo": "ADVERBIO"
+            },
+            "amorosamente": {
+                "tipo": "ADVERBIO"
+            },
+            "odiosamente": {
+                "tipo": "ADVERBIO"
+            },
+            "risueñamente": {
+                "tipo": "ADVERBIO"
+            },
+            "llorosamente": {
+                "tipo": "ADVERBIO"
+            },
+            "soñadoramente": {
+                "tipo": "ADVERBIO"
+            },
+            "dormilónamente": {
+                "tipo": "ADVERBIO"
+            },
+            "esperanzadamente": {
+                "tipo": "ADVERBIO"
+            },
+            "desesperadamente": {
+                "tipo": "ADVERBIO"
+            },
+            "exitosamente": {
+                "tipo": "ADVERBIO"
+            },
+            "fracasadamente": {
+                "tipo": "ADVERBIO"
+            },
+            "aventuradamente": {
+                "tipo": "ADVERBIO"
+            },
+            "rutinariamente": {
+                "tipo": "ADVERBIO"
+            },
+            "libremente": {
+                "tipo": "ADVERBIO"
+            },
+            "esclavamente": {
+                "tipo": "ADVERBIO"
+            },
+            "pacíficamente": {
+                "tipo": "ADVERBIO"
+            },
+            "belicosamente": {
+                "tipo": "ADVERBIO"
+            },
+            "celestialmente": {
+                "tipo": "ADVERBIO"
+            },
+            "infernalmente": {
+                "tipo": "ADVERBIO"
+            },
+            "paradisíacamente": {
+                "tipo": "ADVERBIO"
+            },
+            "destinadamente": {
+                "tipo": "ADVERBIO"
+            },
+            "caóticamente": {
+                "tipo": "ADVERBIO"
+            },
+            "ordenadamente": {
+                "tipo": "ADVERBIO"
+            },
+            "artísticamente": {
+                "tipo": "ADVERBIO"
+            },
+            "científicamente": {
+                "tipo": "ADVERBIO"
+            },
+            "tecnológicamente": {
+                "tipo": "ADVERBIO"
+            },
+            "naturalmente": {
+                "tipo": "ADVERBIO"
+            },
+            "civilizadamente": {
+                "tipo": "ADVERBIO"
+            },
+            "culturalmente": {
+                "tipo": "ADVERBIO"
+            },
+            "tradicionalmente": {
+                "tipo": "ADVERBIO"
+            },
+            "innovadoramente": {
+                "tipo": "ADVERBIO"
+            },
+            "antiguamente": {
+                "tipo": "ADVERBIO"
+            },
+            "actualmente": {
+                "tipo": "ADVERBIO"
+            },
+            "futuramente": {
+                "tipo": "ADVERBIO"
+            },
+            "eternamente": {
+                "tipo": "ADVERBIO"
+            },
+            "instantáneamente": {
+                "tipo": "ADVERBIO"
+            },
+            "jovialmente": {
+                "tipo": "ADVERBIO"
+            },
+            "envejecidamente": {
+                "tipo": "ADVERBIO"
+            },
+            "infantilmente": {
+                "tipo": "ADVERBIO"
+            },
+            "adolescentemente": {
+                "tipo": "ADVERBIO"
+            },
+            "maduramente": {
+                "tipo": "ADVERBIO"
             }
         },
         "preposicion": {
@@ -1002,6 +1943,57 @@
             },
             "sin": {
                 "tipo": "PREPOSICION"
+            },
+            "ante": {
+                "tipo": "PREPOSICION"
+            },
+            "bajo": {
+                "tipo": "PREPOSICION"
+            },
+            "cabe": {
+                "tipo": "PREPOSICION"
+            },
+            "contra": {
+                "tipo": "PREPOSICION"
+            },
+            "desde": {
+                "tipo": "PREPOSICION"
+            },
+            "durante": {
+                "tipo": "PREPOSICION"
+            },
+            "excepto": {
+                "tipo": "PREPOSICION"
+            },
+            "hacia": {
+                "tipo": "PREPOSICION"
+            },
+            "hasta": {
+                "tipo": "PREPOSICION"
+            },
+            "mediante": {
+                "tipo": "PREPOSICION"
+            },
+            "salvo": {
+                "tipo": "PREPOSICION"
+            },
+            "según": {
+                "tipo": "PREPOSICION"
+            },
+            "so": {
+                "tipo": "PREPOSICION"
+            },
+            "sobre": {
+                "tipo": "PREPOSICION"
+            },
+            "tras": {
+                "tipo": "PREPOSICION"
+            },
+            "versus": {
+                "tipo": "PREPOSICION"
+            },
+            "vía": {
+                "tipo": "PREPOSICION"
             }
         },
         "conjuncion": {
@@ -1021,6 +2013,33 @@
                 "tipo": "CONJUNCION"
             },
             "como": {
+                "tipo": "CONJUNCION"
+            },
+            "aunque": {
+                "tipo": "CONJUNCION"
+            },
+            "cuando": {
+                "tipo": "CONJUNCION"
+            },
+            "donde": {
+                "tipo": "CONJUNCION"
+            },
+            "mientras": {
+                "tipo": "CONJUNCION"
+            },
+            "ni": {
+                "tipo": "CONJUNCION"
+            },
+            "porque": {
+                "tipo": "CONJUNCION"
+            },
+            "pues": {
+                "tipo": "CONJUNCION"
+            },
+            "sino": {
+                "tipo": "CONJUNCION"
+            },
+            "ya": {
                 "tipo": "CONJUNCION"
             }
         },
@@ -1100,11 +2119,152 @@
                 "tipo": "PRONOMBRE",
                 "persona": "tercera",
                 "numero": "singular"
+            },
+            "mí": {
+                "tipo": "PRONOMBRE",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "sí": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "singular"
+            },
+            "consigo": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "singular"
+            },
+            "conmigo": {
+                "tipo": "PRONOMBRE",
+                "persona": "primera",
+                "numero": "singular"
+            },
+            "contigo": {
+                "tipo": "PRONOMBRE",
+                "persona": "segunda",
+                "numero": "singular"
+            },
+            "nos": {
+                "tipo": "PRONOMBRE",
+                "persona": "primera",
+                "numero": "plural"
+            },
+            "os": {
+                "tipo": "PRONOMBRE",
+                "persona": "segunda",
+                "numero": "plural"
+            },
+            "les": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "plural"
+            },
+            "las": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "plural",
+                "genero": "femenino"
+            },
+            "los": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "plural",
+                "genero": "masculino"
+            },
+            "le": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "singular"
+            },
+            "ello": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "singular",
+                "genero": "neutro"
+            },
+            "esto": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "singular",
+                "genero": "neutro"
+            },
+            "eso": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "singular",
+                "genero": "neutro"
+            },
+            "aquello": {
+                "tipo": "PRONOMBRE",
+                "persona": "tercera",
+                "numero": "singular",
+                "genero": "neutro"
             }
         },
         "nombre_propio": {
             "Nestle": {
                 "tipo": "NOMBRE_PROPIO"
+            },
+            "María": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
+            },
+            "Juan": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Pedro": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Ana": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
+            },
+            "Carlos": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Lucía": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
+            },
+            "España": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
+            },
+            "México": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Argentina": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
+            },
+            "Colombia": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "femenino"
+            },
+            "Google": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Microsoft": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Amazon": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Facebook": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
+            },
+            "Twitter": {
+                "tipo": "NOMBRE_PROPIO",
+                "genero": "masculino"
             }
         }
     }
